@@ -1,0 +1,321 @@
+{
+	"_version": "1.8.0",
+	"sap.app": {
+		"id": "Project.Project",
+		"type": "application",
+		"i18n": "i18n/i18n.properties",
+		"applicationVersion": {
+			"version": "1.0.0"
+		},
+		"title": "{{appTitle}}",
+		"description": "{{appDescription}}",
+		"sourceTemplate": {
+			"id": "ui5template.basicSAPUI5ApplicationProject",
+			"version": "1.40.12"
+		},
+		"ach": "CA-UI5-FST",
+		"dataSources": {
+			"mainService": {
+				"uri": "/here/goes/your/serviceUrl/",
+				"type": "OData",
+				"settings": {
+					"odataVersion": "2.0",
+					"localUri": "localService/metadata.xml",
+					"annotations": []
+				}
+			}
+		}
+	},
+	"sap.ui": {
+		"technology": "UI5",
+		"icons": {
+			"icon": "",
+			"favIcon": "images/favicon.ico",
+			"phone": "",
+			"phone@2": "",
+			"tablet": "",
+			"tablet@2": ""
+		},
+		"deviceTypes": {
+			"desktop": true,
+			"tablet": true,
+			"phone": true
+		},
+		"supportedThemes": ["sap_hcb", "sap_belize"]
+	},
+	"sap.ui5": {
+		"rootView": {
+			"viewName": "Project.Project.view.Navigation",
+			"type": "XML"
+		},
+		"dependencies": {
+			"minUI5Version": "1.60.1",
+			"libs": {
+				"sap.ui.layout": {},
+				"sap.ui.core": {},
+				"sap.m": {}
+			}
+		},
+		"contentDensities": {
+			"compact": true,
+			"cozy": true
+		},
+		"models": {
+			"i18n": {
+				"type": "sap.ui.model.resource.ResourceModel",
+				"settings": {
+					"bundleName": "Project.Project.i18n.i18n"
+				}
+			}
+		},
+		"resources": {
+			"css": [{
+				"uri": "css/style.css"
+			}]
+		},
+		"routing": {
+			"config": {
+				"routerClass": "sap.m.routing.Router",
+				"viewType": "XML",
+				"async": true,
+				"viewPath": "Project.Project.view",
+				"controlAggregation": "pages",
+				"controlId": "idAppControl",
+				"clearControlAggregation": false
+			},
+			"routes": [{
+				"pattern": "Signin",
+				"name": "Signin",
+				"target": "Signin"
+			}, {
+				"pattern": "Menu",
+				"name": "Menu",
+				"target": "Menu"
+			}, {
+				"pattern": "Home",
+				"name": "Home",
+				"target": "Home"
+			}, {
+				"pattern": "Products",
+				"name": "Products",
+				"target": "Products"
+			}, {
+				"pattern": "Products/{product}",
+				"name": "Product",
+				"target": "Product"
+			}, {
+				"pattern": "Customers",
+				"name": "Customers",
+				"target": "Customers"
+			}, {
+				"pattern": "Customers/{customer}",
+				"name": "Customer",
+				"target": "Customer"
+			}, {
+				"pattern": "Sellers",
+				"name": "Sellers",
+				"target": "Sellers"
+			}, {
+				"pattern": "Sellers/{seller}",
+				"name": "Seller",
+				"target": "Seller"
+			}, {
+				"pattern": "Orders",
+				"name": "Orders",
+				"target": "Orders"
+			}, {
+				"pattern": "Bills",
+				"name": "Bills",
+				"target": "Bills"
+			}, {
+				"pattern": "Statistics",
+				"name": "Statistics",
+				"target": "Statistics"
+			}, {
+				"pattern": "CustomerStatistics",
+				"name": "CustomerStatistics",
+				"target": "CustomerStatistics"
+			}, {
+				"pattern": "BillsStatistics",
+				"name": "BillsStatistics",
+				"target": "BillsStatistics"
+			},
+			{
+				"pattern": "Other",
+				"name": "Other",
+				"target": "Other"
+			}],
+			"targets": {
+				"TargetNavigation": {
+					"viewType": "XML",
+					"transition": "slide",
+					"clearControlAggregation": false,
+					"viewName": "Navigation"
+				},
+				"Signin": {
+					"viewType": "XML",
+					"viewName": "Signin",
+					"routerClass": "sap.m.routing.Router",
+					"async": true,
+					"viewPath": "Project.Project.view",
+					"controlAggregation": "pages",
+					"controlId": "idAppControl",
+					"clearControlAggregation": false
+				},
+				"Menu": {
+					"viewType": "XML",
+					"viewName": "Menu",
+					"routerClass": "sap.m.routing.Router",
+					"async": true,
+					"viewPath": "Project.Project.view",
+					"controlAggregation": "pages",
+					"controlId": "idAppControl",
+					"clearControlAggregation": false
+				},
+				"Home": {
+					"parent": "Menu",
+					"viewType": "XML",
+					"viewName": "Home",
+					"routerClass": "sap.m.routing.Router",
+					"async": true,
+					"viewPath": "Project.Project.view",
+					"controlAggregation": "pages",
+					"controlId": "pageContainer",
+					"clearControlAggregation": false
+				},
+				"Products": {
+					"parent": "Menu",
+					"viewType": "XML",
+					"viewName": "Products",
+					"routerClass": "sap.m.routing.Router",
+					"async": true,
+					"viewPath": "Project.Project.view",
+					"controlAggregation": "pages",
+					"controlId": "pageContainer",
+					"clearControlAggregation": false
+				},
+				"Customers": {
+					"parent": "Menu",
+					"viewType": "XML",
+					"viewName": "Customers",
+					"routerClass": "sap.m.routing.Router",
+					"async": true,
+					"viewPath": "Project.Project.view",
+					"controlAggregation": "pages",
+					"controlId": "pageContainer",
+					"clearControlAggregation": false
+				},
+				"Sellers": {
+					"parent": "Menu",
+					"viewType": "XML",
+					"viewName": "Sellers",
+					"routerClass": "sap.m.routing.Router",
+					"async": true,
+					"viewPath": "Project.Project.view",
+					"controlAggregation": "pages",
+					"controlId": "pageContainer",
+					"clearControlAggregation": false
+				},
+				"Orders": {
+					"parent": "Menu",
+					"viewType": "XML",
+					"viewName": "Orders",
+					"routerClass": "sap.m.routing.Router",
+					"async": true,
+					"viewPath": "Project.Project.view",
+					"controlAggregation": "pages",
+					"controlId": "pageContainer",
+					"clearControlAggregation": false
+				},
+				"Bills": {
+					"parent": "Menu",
+					"viewType": "XML",
+					"viewName": "Bills",
+					"routerClass": "sap.m.routing.Router",
+					"async": true,
+					"viewPath": "Project.Project.view",
+					"controlAggregation": "pages",
+					"controlId": "pageContainer",
+					"clearControlAggregation": false
+				},
+				"Customer": {
+					"parent": "Menu",
+					"viewType": "XML",
+					"viewName": "Customer",
+					"routerClass": "sap.m.routing.Router",
+					"async": true,
+					"viewPath": "Project.Project.view",
+					"controlAggregation": "pages",
+					"controlId": "pageContainer",
+					"clearControlAggregation": false
+				},
+				"Seller": {
+					"parent": "Menu",
+					"viewType": "XML",
+					"viewName": "Seller",
+					"routerClass": "sap.m.routing.Router",
+					"async": true,
+					"viewPath": "Project.Project.view",
+					"controlAggregation": "pages",
+					"controlId": "pageContainer",
+					"clearControlAggregation": false
+				},
+				"Product": {
+					"parent": "Menu",
+					"viewType": "XML",
+					"viewName": "Product",
+					"routerClass": "sap.m.routing.Router",
+					"async": true,
+					"viewPath": "Project.Project.view",
+					"controlAggregation": "pages",
+					"controlId": "pageContainer",
+					"clearControlAggregation": false
+				},
+				"Statistics": {
+					"parent": "Menu",
+					"viewType": "XML",
+					"viewName": "Statistics",
+					"routerClass": "sap.m.routing.Router",
+					"async": true,
+					"viewPath": "Project.Project.view",
+					"controlAggregation": "pages",
+					"controlId": "pageContainer",
+					"clearControlAggregation": false
+				},
+				"CustomerStatistics": {
+					"parent": "Menu",
+					"viewType": "XML",
+					"viewName": "CustomerStatistics",
+					"routerClass": "sap.m.routing.Router",
+					"async": true,
+					"viewPath": "Project.Project.view",
+					"controlAggregation": "pages",
+					"controlId": "pageContainer",
+					"clearControlAggregation": false
+				},
+				"BillsStatistics": {
+					"parent": "Menu",
+					"viewType": "XML",
+					"viewName": "BillsStatistics",
+					"routerClass": "sap.m.routing.Router",
+					"async": true,
+					"viewPath": "Project.Project.view",
+					"controlAggregation": "pages",
+					"controlId": "pageContainer",
+					"clearControlAggregation": false
+				},
+				"Other": {
+					"parent": "Menu",
+					"viewType": "XML",
+					"viewName": "Other",
+					"routerClass": "sap.m.routing.Router",
+					"async": true,
+					"viewPath": "Project.Project.view",
+					"controlAggregation": "pages",
+					"controlId": "pageContainer",
+					"clearControlAggregation": false
+				}
+			}
+		}
+	}
+}

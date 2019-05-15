@@ -1,0 +1,47 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:form="sap.ui.layout.form">
+	<Dialog title="{i18n>AddTitle}" resizable="true" contentWidth="750px" contentHeight="450px">
+		<content width="600px">
+			<form:SimpleForm editable="true" layout="GridLayout" id="addCustomerForm">
+				<!--CUSTOMER-->
+				<Label id="addCustomerNameText" text="{i18n>Name}" visible="false"/>
+				<Input id="addCustomerLastName" type="Text" placeholder="{i18n>LastName}" required="true" visible="false"/>
+				<Input id="addCustomerFirstName" type="Text" placeholder="{i18n>FirstName}" required="true" visible="false"/>
+				<!--SELLER-->
+				<Label id="addSellerNameText" text="{i18n>Name}" visible="false"/>
+				<Input id="addSellerName" type="Text" placeholder="{i18n>Name}" required="true" visible="false"/>
+				
+				<Label text="{i18n>Address}"/>
+				<Input id="addCountry" type="Text" placeholder="{i18n>Country}" required="true"/>
+				<Input id="addZip" type="Number" placeholder="{i18n>ZIP}" required="true"/>
+				<Input id="addCity" type="Text" placeholder="{i18n>City}" required="true"/>
+				<Label text="{i18n>Address}" visible="false"/>
+				<Input id="addStreet" type="Text" placeholder="{i18n>Street}" required="true"/>
+				<Input id="addHouseNumber" type="Text" placeholder="{i18n>HouseNumber}" required="true"/>
+				<Input id="addFloor" type="Number" placeholder="{i18n>Floor}"/>
+				<Input id="addDoor" type="Number" placeholder="{i18n>Door}"/>
+				<Input id="addDoorbell" type="Number" placeholder="{i18n>DoorBell}"/>
+				<Label text="{i18n>Phone}"/>
+				<Input id="addPhone" type="Tel" required="true" placeholder="+36_________"/>
+				<Label text="{i18n>Email}"/>
+				<Input id="addEmail" type="Email" required="true" placeholder="minta@minta.com"/>
+				<Label text="{i18n>BankAccount}"/>
+				<Input id="addBankAccount" required="true" placeholder="________-________-________"/>
+				<!--CUSTOMER-->
+				<Label id="addCustomerTypeText" text="{i18n>Type}" required="true"/>
+				<Select id="addCustomerType" selectedKey="{i18n>PrivatePerson}">
+					<items>
+						<core:Item text="{i18n>PrivatePerson}" key="{i18n>PrivatePerson}"/>
+						<core:Item text="{i18n>Company}" key="{i18n>Company}"/>
+						<core:Item text="{i18n>Contractor}" key="{i18n>Contractor}"/>
+					</items>
+				</Select>
+			</form:SimpleForm>
+		</content>
+		<beginButton>
+			<Button id="idConfirmAddDataSheet" text="{i18n>Add}" press="onAddConfirmButtonPress"/>
+		</beginButton>
+		<endButton>
+			<Button id="idCloseAddDataSheet" text="{i18n>Close}" press="onAddCloseButtonPress"/>
+		</endButton>
+	</Dialog>
+</core:FragmentDefinition>

@@ -1,0 +1,1 @@
+sap.ui.define(["sap/ui/test/Opa5","./arrangements/Startup","./NavigationJourney","./MenuJourney","./ProductsJourney","./CustomersJourney","./SellersJourney","./OrdersJourney","./ProductsCRUDJourney","./CustomersCRUDJourney","./OrdersCRUDJourney"],function(e,r){"use strict";e.extendConfig({arrangements:new r,viewNamespace:"Project.Project.view.",autoWait:true})});

@@ -1,0 +1,26 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:form="sap.ui.layout.form" xmlns:layout="sap.ui.layout">
+	<Dialog title="{i18n>SellerAddTitle}" resizable="true" contentWidth="400px" contentHeight="400px">
+		<content width="600px">
+			<form:SimpleForm title="{i18n>OOrder}">
+				<form:content>
+					<Label text="{i18n>Name}"/>
+					<Text text="{/customer}"/>
+					<Label text="{i18n>Products}"/>
+					<Text text="{/products}"/>
+					<Label text="{i18n>OrderDate}"/>
+					<Text text="{/ordersDate}"/>
+					<Label text="{i18n>OrderFulfillDate}"/>
+					<Text text="{/ordersFulfillDate}"/>
+					<Label text="{i18n>OBill}"/>
+					<Text text="{/bill}"/>
+				</form:content>
+			</form:SimpleForm>
+		</content>
+		<beginButton>
+			<Button id="idConfirmOrder" text="{i18n>OOrder}" press="onSendOrderButtonPress"/>
+		</beginButton>
+		<endButton>
+			<Button text="{i18n>Cancel}" press="onCancelOrderButtonPress"/>
+		</endButton>
+	</Dialog>
+</core:FragmentDefinition>

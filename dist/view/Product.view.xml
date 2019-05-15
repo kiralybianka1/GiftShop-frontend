@@ -1,0 +1,139 @@
+<mvc:View controllerName="Project.Project.controller.Product" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc"
+	displayBlock="true" xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:form="sap.ui.layout.form">
+	<Page id="page" title="{/name}" showNavButton="true" navButtonPress="onNavBack">
+		<headerContent>
+			<Button icon="sap-icon://delete" id="deleteButton" text="{i18n>Delete}" type="Reject" press="onDeleteButtonPress"/>
+		</headerContent>
+		<content>
+			<IconTabBar id="idIconTabBarNoIcons" class="sapUiResponsiveContentPadding" stretchContentHeight="true" select="handleIconTabBarSelect">
+				<items>
+					<IconTabFilter id="idProductInfoTab" text="{i18n>ProductI}" key="info">
+						<ScrollContainer height="100%" width="100%" horizontal="false" vertical="true">
+							<VBox class="sapUiSmallMargin">
+								<form:SimpleForm id="info1" layout="ResponsiveGridLayout" title="{i18n>ProductInfo}" labelSpanXL="3" labelSpanL="3" labelSpanM="3"
+									labelSpanS="12" adjustLabelSpan="false" emptySpanXL="4" emptySpanL="4" emptySpanM="4" emptySpanS="0" columnsXL="1" columnsL="1" columnsM="1"
+									singleContainerFullSize="false">
+									<form:content>
+										<Label text="{i18n>Name}"/>
+										<Text text="{/name}"/>
+										<Label text="{i18n>ProductID}"/>
+										<Text text="{/id}"/>
+										<Label text="{i18n>Description}"/>
+										<Text text="{/description}"/>
+									</form:content>
+								</form:SimpleForm>
+							</VBox>
+							<VBox class="sapUiSmallMargin">
+								<form:SimpleForm id="info2" layout="ResponsiveGridLayout" title="{i18n>ProductInfo2}" labelSpanXL="3" labelSpanL="3" labelSpanM="3"
+									labelSpanS="12" adjustLabelSpan="false" emptySpanXL="4" emptySpanL="4" emptySpanM="4" emptySpanS="0" columnsXL="1" columnsL="1" columnsM="1"
+									singleContainerFullSize="false">
+									<form:content>
+										<Label text="{i18n>Category}"/>
+										<Text text="{/category/name}"/>
+										<Label text="{i18n>CategoryID}"/>
+										<Text text="{/category/id}"/>
+										<Label text="{i18n>CategoryTax}"/>
+										<Text text="{/category/taxRate}%"/>
+									</form:content>
+								</form:SimpleForm>
+							</VBox>
+							<VBox class="sapUiSmallMargin">
+								<form:SimpleForm id="info3" layout="ResponsiveGridLayout" title="{i18n>ProductInfo3}" labelSpanXL="3" labelSpanL="3" labelSpanM="3"
+									labelSpanS="12" adjustLabelSpan="false" emptySpanXL="4" emptySpanL="4" emptySpanM="4" emptySpanS="0" columnsXL="1" columnsL="1" columnsM="1"
+									singleContainerFullSize="false">
+									<form:content>
+										<Label text="{i18n>NetPrice}"/>
+										<Text text="{/netPrice} Ft"/>
+										<Label text="{i18n>GrossPrice}"/>
+										<Text text="{/grossPrice} Ft"/>
+										<Label text="{i18n>GrossSalePrice}"/>
+										<Text text="{/grossSalePrice} Ft"/>
+									</form:content>
+								</form:SimpleForm>
+							</VBox>
+							<VBox class="sapUiSmallMargin">
+								<form:SimpleForm id="info4" layout="ResponsiveGridLayout" title="{i18n>ProductInfo4}" labelSpanXL="3" labelSpanL="3" labelSpanM="3"
+									labelSpanS="12" adjustLabelSpan="false" emptySpanXL="4" emptySpanL="4" emptySpanM="4" emptySpanS="0" columnsXL="1" columnsL="1" columnsM="1"
+									singleContainerFullSize="false">
+									<form:content>
+										<Label text="{i18n>StockID}"/>
+										<Text text="{/stockId}"/>
+										<Label text="{i18n>Quantity}"/>
+										<Text text="{/quantity} {i18n>QuantityType}"/>
+									</form:content>
+								</form:SimpleForm>
+							</VBox>
+						</ScrollContainer>
+					</IconTabFilter>
+					<IconTabFilter id="idProductModifyTab" text="{i18n>ProductModify}" key="modify">
+						<ScrollContainer height="100%" width="100%" horizontal="false" vertical="true">
+							<VBox class="sapUiSmallMargin">
+								<form:SimpleForm id="info1M" layout="ResponsiveGridLayout" title="{i18n>ProductInfo}" labelSpanXL="3" labelSpanL="3" labelSpanM="3"
+									labelSpanS="12" adjustLabelSpan="false" emptySpanXL="4" emptySpanL="4" emptySpanM="4" emptySpanS="0" columnsXL="1" columnsL="1" columnsM="1"
+									singleContainerFullSize="false">
+									<MessageStrip class="sapUiSmallMarginBottom" text="{i18n>ProductInfoModifyText}" showIcon="true"/>
+									<form:content>
+										<Label text="{i18n>ProductID}"/>
+										<Text text="{/id}"/>
+										<Label text="{i18n>Name}"/>
+										<Input id="name" value="{/name}" required="true" type="Text"/>
+										<Label text="{i18n>Description}"/>
+										<TextArea id="description" rows="3" required="true" value="{/description}"/>
+									</form:content>
+								</form:SimpleForm>
+							</VBox>
+							<VBox class="sapUiSmallMargin">
+								<form:SimpleForm id="info2M" layout="ResponsiveGridLayout" title="{i18n>ProductInfo2}" labelSpanXL="3" labelSpanL="3" labelSpanM="3"
+									labelSpanS="12" adjustLabelSpan="false" emptySpanXL="4" emptySpanL="4" emptySpanM="4" emptySpanS="0" columnsXL="1" columnsL="1" columnsM="1"
+									singleContainerFullSize="false">
+									<MessageStrip class="sapUiSmallMarginBottom" text="{i18n>ProductCatgeroryModifyText}" showIcon="true"/>
+									<form:content>
+										<Label text="{i18n>Category}"/>
+										<ComboBox id="categorySelect" showSecondaryValues="true" items="{ path: 'category>/' }" required="true" selectedKey="{/category/id}">
+											<core:ListItem text="{category>name}" key="{category>id}" additionalText="ID: {category>id}"/>
+										</ComboBox>
+									</form:content>
+								</form:SimpleForm>
+							</VBox>
+							<VBox class="sapUiSmallMargin">
+								<form:SimpleForm id="info3M" layout="ResponsiveGridLayout" title="{i18n>ProductInfo3}" labelSpanXL="3" labelSpanL="3" labelSpanM="3"
+									labelSpanS="12" adjustLabelSpan="false" emptySpanXL="4" emptySpanL="4" emptySpanM="4" emptySpanS="0" columnsXL="1" columnsL="1" columnsM="1"
+									singleContainerFullSize="false">
+									<MessageStrip class="sapUiSmallMarginBottom" text="{i18n>ProductPriceModifyText}" showIcon="true"/>
+									<form:content>
+										<Label text="{i18n>NetPrice}"/>
+										<Input id="netPrice" type="Number" required="true" value="{/netPrice}"/>
+										<Label text="{i18n>GrossPrice}"/>
+										<Text text="{/grossPrice} Ft"/>
+										<Label text="{i18n>GrossSalePrice}"/>
+										<Text text="{/grossSalePrice} Ft"/>
+									</form:content>
+								</form:SimpleForm>
+							</VBox>
+							<VBox class="sapUiSmallMargin">
+								<form:SimpleForm id="info4M" layout="ResponsiveGridLayout" title="{i18n>ProductInfo4}" labelSpanXL="3" labelSpanL="3" labelSpanM="3"
+									labelSpanS="12" adjustLabelSpan="false" emptySpanXL="4" emptySpanL="4" emptySpanM="4" emptySpanS="0" columnsXL="1" columnsL="1" columnsM="1"
+									singleContainerFullSize="false">
+									<MessageStrip class="sapUiSmallMarginBottom" text="{i18n>ProductStockModifyText}" showIcon="true"/>
+									<form:content>
+										<Label text="{i18n>StockID}"/>
+										<Input id="stockId" required="true" value="{/stockId}"/>
+										<Label text="{i18n>Quantity}"/>
+										<Input id="quantity" type="Number" required="true" value="{/quantity}"/>
+									</form:content>
+								</form:SimpleForm>
+							</VBox>
+						</ScrollContainer>
+					</IconTabFilter>
+				</items>
+			</IconTabBar>
+		</content>
+		<footer >
+			<Toolbar id="footer" visible="false">
+				<ToolbarSpacer/>
+				<Button id="saveButton" text="{i18n>Save}" type="Accept" icon="sap-icon://save" press="onSaveButtonPress"/>
+				<Button id="cancelButton" text="{i18n>Cancel}" type="Reject" icon="sap-icon://sys-cancel" press="onCancelButtonPress"/>
+			</Toolbar>
+		</footer>
+	</Page>
+</mvc:View>

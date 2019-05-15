@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<edmx:Edmx xmlns:edmx="http://schemas.microsoft.com/ado/2007/06/edmx" xmlns:sap="http://www.sap.com/Protocols/SAPData" Version="1.0">
+	<edmx:DataServices xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" m:DataServiceVersion="2.0">
+		<Schema xml:lang="en" xmlns="http://schemas.microsoft.com/ado/2008/09/edm" Namespace="PROJECT">
+			<EntityType Name="category" xmlns:sap="http://www.sap.com/Protocols/SAPData" sap:content-version="1">
+				<Key>
+					<PropertyRef Name="id"/>
+				</Key>
+				<Property Name="id" p8:StoreGeneratedPattern="Identity" Nullable="false" Type="Edm.Int32"
+					xmlns:p8="http://schemas.microsoft.com/ado/2009/02/edm/annotation"/>
+				<Property Name="name" Nullable="false" Type="Edm.String" sap:sortable="true" sap:updatable="true" sap:creatable="true" sap:label="category"/>
+				<Property Name="taxRate" Nullable="false" Type="Edm.Decimal" sap:sortable="true" sap:updatable="true" sap:creatable="true"
+					sap:label="category"/>
+				<NavigationProperty Name="products" ToRole="products" FromRole="categories" Relationship="PROJECT.FK_Products_Categories"/>
+			</EntityType>
+			<EntityType Name="product" xmlns:sap="http://www.sap.com/Protocols/SAPData" sap:content-version="1">
+				<Key>
+					<PropertyRef Name="id"/>
+				</Key>
+				<Property Name="id" p8:StoreGeneratedPattern="Identity" Nullable="false" Type="Edm.Int32"
+					xmlns:p8="http://schemas.microsoft.com/ado/2009/02/edm/annotation"/>
+				<Property Name="name" Nullable="false" Type="Edm.String" sap:sortable="true" sap:updatable="true" sap:creatable="true" sap:label="product"/>
+				<Property Name="description" Nullable="false" Type="Edm.String" sap:sortable="true" sap:updatable="true" sap:creatable="true"
+					sap:label="product"/>
+				<Property Name="netPrice" Nullable="false" Type="Edm.Decimal" sap:sortable="true" sap:updatable="true" sap:creatable="true"
+					sap:label="product"/>
+				<Property Name="grossPrice" Nullable="false" Type="Edm.Decimal" sap:sortable="true" sap:updatable="true" sap:creatable="true"
+					sap:label="product"/>
+				<Property Name="grossSalePrice" Nullable="false" Type="Edm.Decimal" sap:sortable="true" sap:updatable="true" sap:creatable="true"
+					sap:label="product"/>
+				<Property Name="quantity" Nullable="false" Type="Edm.Int32" sap:sortable="true" sap:updatable="false" sap:creatable="false"
+					sap:label="product"/>
+				<Property Name="stockId" Nullable="false" Type="Edm.String" sap:sortable="true" sap:updatable="false" sap:creatable="false"
+					sap:label="product" FixedLength="7"/>
+				<Property Name="CategoryID" Nullable="false" Type="Edm.Int32" sap:sortable="true" sap:updatable="true" sap:creatable="true"
+					sap:label="product"/>
+				<NavigationProperty Name="category" ToRole="categories" FromRole="products" Relationship="PROJECT.FK_Products_Categories"/>
+				<NavigationProperty Name="orderProducts" ToRole="orderProducts" FromRole="products" Relationship="PROJECT.FK_OrderProducts_Products"/>
+			</EntityType>
+			<EntityType Name="address" xmlns:sap="http://www.sap.com/Protocols/SAPData" sap:content-version="1">
+				<Key>
+					<PropertyRef Name="id"/>
+				</Key>
+				<Property Name="id" p8:StoreGeneratedPattern="Identity" Nullable="false" Type="Edm.Int32"
+					xmlns:p8="http://schemas.microsoft.com/ado/2009/02/edm/annotation"/>
+				<Property Name="country" Nullable="false" Type="Edm.String" sap:sortable="true" sap:updatable="true" sap:creatable="true"
+					sap:label="address"/>
+				<Property Name="zipCode" Nullable="false" Type="Edm.String" sap:sortable="true" sap:updatable="true" sap:creatable="true"
+					sap:label="address"/>
+				<Property Name="city" Nullable="false" Type="Edm.String" sap:sortable="true" sap:updatable="true" sap:creatable="true" sap:label="address"/>
+				<Property Name="steet" Nullable="false" Type="Edm.String" sap:sortable="true" sap:updatable="true" sap:creatable="true" sap:label="address"/>
+				<Property Name="houseNumber" Nullable="false" Type="Edm.String" sap:sortable="true" sap:updatable="true" sap:creatable="true"
+					sap:label="address"/>
+				<Property Name="floor" Nullable="true" Type="Edm.Int32" sap:sortable="true" sap:updatable="true" sap:creatable="true" sap:label="address"/>
+				<Property Name="door" Nullable="true" Type="Edm.Int32" sap:sortable="true" sap:updatable="true" sap:creatable="true" sap:label="address"/>
+				<Property Name="doorbell" Nullable="true" Type="Edm.Int32" sap:sortable="true" sap:updatable="true" sap:creatable="true" sap:label="address"/>
+				<NavigationProperty Name="customers" ToRole="customers" FromRole="addresses" Relationship="PROJECT.FK_Customers_Addresses"/>
+				<NavigationProperty Name="sellers" ToRole="sellers" FromRole="addresses" Relationship="PROJECT.FK_Sellers_Addresses"/>
+			</EntityType>
+			<EntityType Name="customer" xmlns:sap="http://www.sap.com/Protocols/SAPData" sap:content-version="1">
+				<Key>
+					<PropertyRef Name="id"/>
+				</Key>
+				<Property Name="id" p8:StoreGeneratedPattern="Identity" Nullable="false" Type="Edm.Int32"
+					xmlns:p8="http://schemas.microsoft.com/ado/2009/02/edm/annotation"/>
+				<Property Name="firstName" Nullable="false" Type="Edm.String" sap:sortable="true" sap:updatable="true" sap:creatable="true"
+					sap:label="customer"/>
+				<Property Name="lastName" Nullable="false" Type="Edm.String" sap:sortable="true" sap:updatable="true" sap:creatable="true"
+					sap:label="customer"/>
+				<Property Name="phone" Nullable="false" Type="Edm.String" sap:sortable="true" sap:updatable="true" sap:creatable="true" sap:label="customer"/>
+				<Property Name="email" Nullable="false" Type="Edm.String" sap:sortable="true" sap:updatable="true" sap:creatable="true" sap:label="customer"/>
+				<Property Name="customerType" Nullable="false" Type="Edm.String" sap:sortable="true" sap:updatable="true" sap:creatable="true"
+					sap:label="customer"/>
+				<Property Name="accountNumber" Nullable="false" Type="Edm.String" sap:sortable="true" sap:updatable="true" sap:creatable="true"
+					sap:label="customer"/>
+				<Property Name="AddressID" Nullable="false" Type="Edm.Int32" sap:sortable="true" sap:updatable="true" sap:creatable="true"
+					sap:label="customer"/>
+				<NavigationProperty Name="address" ToRole="addresses" FromRole="customers" Relationship="PROJECT.FK_Customers_Addresses"/>
+				<NavigationProperty Name="orders" ToRole="orders" FromRole="customers" Relationship="PROJECT.FK_Orders_Customers"/>
+			</EntityType>
+			<EntityType Name="sellerProduct" xmlns:sap="http://www.sap.com/Protocols/SAPData" sap:content-version="1">
+				<Key>
+					<PropertyRef Name="id"/>
+				</Key>
+				<Property Name="id" Nullable="false" Type="Edm.Int32" sap:sortable="true" sap:updatable="false" sap:creatable="false"
+					sap:label="sellerProduct"/>
+				<Property Name="name" Nullable="false" Type="Edm.String" sap:sortable="true" sap:updatable="true" sap:creatable="true"
+					sap:label="sellerProduct"/>
+				<Property Name="description" Nullable="true" Type="Edm.String" sap:sortable="true" sap:updatable="true" sap:creatable="true"
+					sap:label="sellerProduct"/>
+				<Property Name="price" Nullable="false" Type="Edm.Decimal" sap:sortable="true" sap:updatable="true" sap:creatable="true"
+					sap:label="sellerProduct"/>
+				<Property Name="SellerID" Nullable="false" Type="Edm.Int32" sap:sortable="true" sap:updatable="true" sap:creatable="true"
+					sap:label="sellerProduct"/>
+				<NavigationProperty Name="seller" ToRole="sellers" FromRole="sellerProducts" Relationship="PROJECT.FK_sellerProducts_Sellers"/>
+			</EntityType>
+			<EntityType Name="seller" xmlns:sap="http://www.sap.com/Protocols/SAPData" sap:content-version="1">
+				<Key>
+					<PropertyRef Name="id"/>
+				</Key>
+				<Property Name="id" p8:StoreGeneratedPattern="Identity" Nullable="false" Type="Edm.Int32"
+					xmlns:p8="http://schemas.microsoft.com/ado/2009/02/edm/annotation"/>
+				<Property Name="name" Nullable="false" Type="Edm.String" sap:sortable="true" sap:updatable="true" sap:creatable="true" sap:label="seller"/>
+				<Property Name="phone" Nullable="false" Type="Edm.String" sap:sortable="true" sap:updatable="true" sap:creatable="true" sap:label="seller"/>
+				<Property Name="email" Nullable="false" Type="Edm.String" sap:sortable="true" sap:updatable="true" sap:creatable="true" sap:label="seller"/>
+				<Property Name="accountNumber" Nullable="false" Type="Edm.String" sap:sortable="true" sap:updatable="true" sap:creatable="true"
+					sap:label="seller"/>
+				<Property Name="AddressID" Nullable="false" Type="Edm.Int32" sap:sortable="true" sap:updatable="true" sap:creatable="true"
+					sap:label="seller"/>
+				<NavigationProperty Name="address" ToRole="addresses" FromRole="sellers" Relationship="PROJECT.FK_Sellers_Addresses"/>
+				<NavigationProperty Name="sellerProducts" ToRole="sellerProducts" FromRole="sellers" Relationship="PROJECT.FK_sellerProducts_Sellers"/>
+				<NavigationProperty Name="sellerInvoices" ToRole="sellerInvoices" FromRole="sellers" Relationship="PROJECT.FK_sellerInvoices_Sellers"/>
+			</EntityType>
+			<EntityType Name="orderProduct" xmlns:sap="http://www.sap.com/Protocols/SAPData" sap:content-version="1">
+				<Key>
+					<PropertyRef Name="id"/>
+				</Key>
+				<Property Name="id" p8:StoreGeneratedPattern="Identity" Nullable="false" Type="Edm.Int32"
+					xmlns:p8="http://schemas.microsoft.com/ado/2009/02/edm/annotation"/>
+				<Property Name="quantity" Nullable="false" Type="Edm.Int32" sap:sortable="true" sap:updatable="false" sap:creatable="false"
+					sap:label="orderProduct"/>
+				<Property Name="ProductID" Nullable="false" Type="Edm.Int32" sap:sortable="true" sap:updatable="true" sap:creatable="true"
+					sap:label="orderProduct"/>
+				<NavigationProperty Name="product" ToRole="products" FromRole="orderProducts" Relationship="PROJECT.FK_OrderProducts_Products"/>
+				<Property Name="OrderID" Nullable="false" Type="Edm.Int32" sap:sortable="true" sap:updatable="true" sap:creatable="true"
+					sap:label="orderProduct"/>
+				<NavigationProperty Name="order" ToRole="orders" FromRole="orderProducts" Relationship="PROJECT.FK_OrderProducts_Orders"/>
+			</EntityType>
+			<EntityType Name="order" xmlns:sap="http://www.sap.com/Protocols/SAPData" sap:content-version="1">
+				<Key>
+					<PropertyRef Name="id"/>
+				</Key>
+				<Property Name="id" p8:StoreGeneratedPattern="Identity" Nullable="false" Type="Edm.Int32"
+					xmlns:p8="http://schemas.microsoft.com/ado/2009/02/edm/annotation"/>
+				<Property Name="orderDate" Nullable="false" Type="Edm.DateTime" sap:sortable="true" sap:updatable="true" sap:creatable="true"
+					sap:label="order"/>
+				<Property Name="fulfillDate" Nullable="true" Type="Edm.DateTime" sap:sortable="true" sap:updatable="true" sap:creatable="true"
+					sap:label="order"/>
+				<Property Name="CustomerID" Nullable="false" Type="Edm.Int32" sap:sortable="true" sap:updatable="true" sap:creatable="true"
+					sap:label="order"/>
+				<NavigationProperty Name="customer" ToRole="customers" FromRole="orders" Relationship="PROJECT.FK_Orders_Customers"/>
+				<NavigationProperty Name="orderProducts" ToRole="orderProducts" FromRole="orders" Relationship="PROJECT.FK_OrderProducts_Orders"/>
+				<NavigationProperty Name="orderInvoices" ToRole="orderInvoices" FromRole="orders" Relationship="PROJECT.FK_orderInvoices_Orders"/>
+			</EntityType>
+			<EntityType Name="orderInvoice" xmlns:sap="http://www.sap.com/Protocols/SAPData" sap:content-version="1">
+				<Key>
+					<PropertyRef Name="id"/>
+				</Key>
+				<Property Name="id" p8:StoreGeneratedPattern="Identity" Nullable="false" Type="Edm.Int32"
+					xmlns:p8="http://schemas.microsoft.com/ado/2009/02/edm/annotation"/>
+				<Property Name="OrderID" Nullable="false" Type="Edm.Int32" sap:sortable="true" sap:updatable="true" sap:creatable="true"
+					sap:label="orderInvoice"/>
+				<NavigationProperty Name="order" ToRole="orders" FromRole="orderInvoices" Relationship="PROJECT.FK_orderInvoices_Orders"/>
+			</EntityType>
+			<EntityType Name="sellerInvoice" xmlns:sap="http://www.sap.com/Protocols/SAPData" sap:content-version="1">
+				<Key>
+					<PropertyRef Name="id"/>
+				</Key>
+				<Property Name="id" p8:StoreGeneratedPattern="Identity" Nullable="false" Type="Edm.Int32"
+					xmlns:p8="http://schemas.microsoft.com/ado/2009/02/edm/annotation"/>
+				<Property Name="invoiceDate" Nullable="false" Type="Edm.DateTime" sap:sortable="true" sap:updatable="true" sap:creatable="true"
+					sap:label="sellerInvoice"/>
+				<Property Name="totalPrice" Nullable="false" Type="Edm.Decimal" sap:sortable="true" sap:updatable="true" sap:creatable="true"
+					sap:label="sellerInvoice"/>
+				<Property Name="SellerID" Nullable="false" Type="Edm.Int32" sap:sortable="true" sap:updatable="true" sap:creatable="true"
+					sap:label="sellerInvoice"/>
+				<NavigationProperty Name="seller" ToRole="sellers" FromRole="sellerInvoices" Relationship="PROJECT.FK_sellerInvoices_Sellers"/>
+			</EntityType>
+			
+			<Association Name="FK_Products_Categories">
+				<End Type="PROJECT.category" Multiplicity="0..1" Role="categories"/>
+				<End Type="PROJECT.product" Multiplicity="*" Role="products"/>
+				<ReferentialConstraint>
+					<Principal Role="categories">
+						<PropertyRef Name="id"/>
+					</Principal>
+					<Dependent Role="products">
+						<PropertyRef Name="CategoryID"/>
+					</Dependent>
+				</ReferentialConstraint>
+			</Association>
+			<Association Name="FK_Customers_Addresses">
+				<End Type="PROJECT.address" Multiplicity="0..1" Role="addresses"/>
+				<End Type="PROJECT.customer" Multiplicity="*" Role="customers"/>
+				<ReferentialConstraint>
+					<Principal Role="addresses">
+						<PropertyRef Name="id"/>
+					</Principal>
+					<Dependent Role="customers">
+						<PropertyRef Name="AddressID"/>
+					</Dependent>
+				</ReferentialConstraint>
+			</Association>
+			<Association Name="FK_Sellers_Addresses">
+				<End Type="PROJECT.address" Multiplicity="0..1" Role="addresses"/>
+				<End Type="PROJECT.seller" Multiplicity="*" Role="sellers"/>
+				<ReferentialConstraint>
+					<Principal Role="addresses">
+						<PropertyRef Name="id"/>
+					</Principal>
+					<Dependent Role="sellers">
+						<PropertyRef Name="AddressID"/>
+					</Dependent>
+				</ReferentialConstraint>
+			</Association>
+			<Association Name="FK_Orders_Customers">
+				<End Type="PROJECT.customer" Multiplicity="0..1" Role="customers"/>
+				<End Type="PROJECT.order" Multiplicity="*" Role="orders"/>
+				<ReferentialConstraint>
+					<Principal Role="customers">
+						<PropertyRef Name="id"/>
+					</Principal>
+					<Dependent Role="orders">
+						<PropertyRef Name="CustomerID"/>
+					</Dependent>
+				</ReferentialConstraint>
+			</Association>
+			<Association Name="FK_sellerProducts_Sellers">
+				<End Type="PROJECT.seller" Multiplicity="0..1" Role="sellers"/>
+				<End Type="PROJECT.sellerProduct" Multiplicity="*" Role="sellerProducts"/>
+				<ReferentialConstraint>
+					<Principal Role="sellers">
+						<PropertyRef Name="id"/>
+					</Principal>
+					<Dependent Role="sellerProducts">
+						<PropertyRef Name="SellerID"/>
+					</Dependent>
+				</ReferentialConstraint>
+			</Association>
+			<Association Name="FK_sellerInvoices_Sellers">
+				<End Type="PROJECT.seller" Multiplicity="0..1" Role="sellers"/>
+				<End Type="PROJECT.sellerInvoice" Multiplicity="*" Role="sellerInvoices"/>
+				<ReferentialConstraint>
+					<Principal Role="sellers">
+						<PropertyRef Name="id"/>
+					</Principal>
+					<Dependent Role="sellerInvoices">
+						<PropertyRef Name="SellerID"/>
+					</Dependent>
+				</ReferentialConstraint>
+			</Association>
+			<Association Name="FK_OrderProducts_Products">
+				<End Type="PROJECT.product" Multiplicity="0..1" Role="products"/>
+				<End Type="PROJECT.orderProduct" Multiplicity="*" Role="orderProducts"/>
+				<ReferentialConstraint>
+					<Principal Role="products">
+						<PropertyRef Name="id"/>
+					</Principal>
+					<Dependent Role="orderProducts">
+						<PropertyRef Name="ProductID"/>
+					</Dependent>
+				</ReferentialConstraint>
+			</Association>
+			<Association Name="FK_OrderProducts_Orders">
+				<End Type="PROJECT.order" Multiplicity="0..1" Role="orders"/>
+				<End Type="PROJECT.orderProduct" Multiplicity="*" Role="orderProducts"/>
+				<ReferentialConstraint>
+					<Principal Role="orders">
+						<PropertyRef Name="id"/>
+					</Principal>
+					<Dependent Role="orderProducts">
+						<PropertyRef Name="OrderID"/>
+					</Dependent>
+				</ReferentialConstraint>
+			</Association>
+			<Association Name="FK_orderInvoices_Orders">
+				<End Type="PROJECT.order" Multiplicity="0..1" Role="orders"/>
+				<End Type="PROJECT.orderInvoice" Multiplicity="*" Role="orderInvoices"/>
+				<ReferentialConstraint>
+					<Principal Role="orders">
+						<PropertyRef Name="id"/>
+					</Principal>
+					<Dependent Role="orderInvoices">
+						<PropertyRef Name="OrderID"/>
+					</Dependent>
+				</ReferentialConstraint>
+			</Association>
+			<EntityContainer Name="PROJECT" m:IsDefaultEntityContainer="true">
+				<EntitySet xmlns:sap="http://www.sap.com/Protocols/SAPData" sap:content-version="1" Name="categories" sap:updatable="true"
+					sap:creatable="true" sap:deletable="true" EntityType="PROJECT.category"/>
+				<EntitySet xmlns:sap="http://www.sap.com/Protocols/SAPData" sap:content-version="1" Name="products" sap:updatable="true"
+					sap:creatable="true" sap:deletable="true" EntityType="PROJECT.product"/>
+				<EntitySet xmlns:sap="http://www.sap.com/Protocols/SAPData" sap:content-version="1" Name="addresses" sap:updatable="true"
+					sap:creatable="true" sap:deletable="true" EntityType="PROJECT.address"/>
+				<EntitySet xmlns:sap="http://www.sap.com/Protocols/SAPData" sap:content-version="1" Name="customers" sap:updatable="true"
+					sap:creatable="true" sap:deletable="true" EntityType="PROJECT.customer"/>
+				<EntitySet xmlns:sap="http://www.sap.com/Protocols/SAPData" sap:content-version="1" Name="sellerProducts" sap:updatable="true"
+					sap:creatable="true" sap:deletable="true" EntityType="PROJECT.sellerProduct"/>
+				<EntitySet xmlns:sap="http://www.sap.com/Protocols/SAPData" sap:content-version="1" Name="sellers" sap:updatable="true" sap:creatable="true"
+					sap:deletable="true" EntityType="PROJECT.seller"/>
+				<EntitySet xmlns:sap="http://www.sap.com/Protocols/SAPData" sap:content-version="1" Name="orders" sap:updatable="true" sap:creatable="true"
+					sap:deletable="true" EntityType="PROJECT.order"/>
+				<EntitySet xmlns:sap="http://www.sap.com/Protocols/SAPData" sap:content-version="1" Name="orderInvoices" sap:updatable="true"
+					sap:creatable="true" sap:deletable="true" EntityType="PROJECT.orderInvoice"/>
+				<EntitySet xmlns:sap="http://www.sap.com/Protocols/SAPData" sap:content-version="1" Name="sellerInvoices" sap:updatable="true"
+					sap:creatable="true" sap:deletable="true" EntityType="PROJECT.sellerInvoice"/>
+				<EntitySet xmlns:sap="http://www.sap.com/Protocols/SAPData" sap:content-version="1" Name="orderProducts" sap:updatable="true"
+					sap:creatable="true" sap:deletable="true" EntityType="PROJECT.orderProduct"/>
+				<AssociationSet Name="FK_Products_Categories" Association="PROJECT.FK_Products_Categories">
+					<End Role="categories" EntitySet="categories"/>
+					<End Role="products" EntitySet="products"/>
+				</AssociationSet>
+				<AssociationSet Name="FK_Customers_Addresses" Association="PROJECT.FK_Customers_Addresses">
+					<End Role="addresses" EntitySet="addresses"/>
+					<End Role="customers" EntitySet="customers"/>
+				</AssociationSet>
+				<AssociationSet Name="FK_Sellers_Addresses" Association="PROJECT.FK_Sellers_Addresses">
+					<End Role="addresses" EntitySet="addresses"/>
+					<End Role="sellers" EntitySet="sellers"/>
+				</AssociationSet>
+				<AssociationSet Name="FK_Orders_Customers" Association="PROJECT.FK_Orders_Customers">
+					<End Role="customers" EntitySet="customers"/>
+					<End Role="orders" EntitySet="orders"/>
+				</AssociationSet>
+				<AssociationSet Name="FK_sellerProducts_Sellers" Association="PROJECT.FK_sellerProducts_Sellers">
+					<End Role="sellers" EntitySet="sellers"/>
+					<End Role="sellerProducts" EntitySet="sellerProducts"/>
+				</AssociationSet>
+				<AssociationSet Name="FK_sellerInvoices_Sellers" Association="PROJECT.FK_sellerInvoices_Sellers">
+					<End Role="sellers" EntitySet="sellers"/>
+					<End Role="sellerInvoices" EntitySet="sellerInvoices"/>
+				</AssociationSet>
+				<AssociationSet Name="FK_OrderProducts_Products" Association="PROJECT.FK_OrderProducts_Products">
+					<End Role="products" EntitySet="products"/>
+					<End Role="orderProducts" EntitySet="orderProducts"/>
+				</AssociationSet>
+				<AssociationSet Name="FK_OrderProducts_Orders" Association="PROJECT.FK_OrderProducts_Orders">
+					<End Role="orders" EntitySet="orders"/>
+					<End Role="orderProducts" EntitySet="orderProducts"/>
+				</AssociationSet>
+				<AssociationSet Name="FK_orderInvoices_Orders" Association="PROJECT.FK_orderInvoices_Orders">
+					<End Role="orders" EntitySet="orders"/>
+					<End Role="orderInvoices" EntitySet="orderInvoices"/>
+				</AssociationSet>
+			</EntityContainer>
+		</Schema>
+	</edmx:DataServices>
+</edmx:Edmx>

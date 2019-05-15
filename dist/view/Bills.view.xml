@@ -1,0 +1,77 @@
+<mvc:View controllerName="Project.Project.controller.Bills" xmlns="sap.suite.ui.commons" xmlns:mvc="sap.ui.core.mvc"
+	xmlns:t="sap.suite.ui.commons.taccount" xmlns:m="sap.m" width="100%" height="100%" xmlns:form="sap.ui.layout.form" xmlns:core="sap.ui.core">
+	<m:Page title="{i18n>Bills}">
+		<m:content>
+			<m:IconTabBar id="idIconTabBarNoIcons" class="sapUiResponsiveContentPadding" stretchContentHeight="true" select="handleIconTabBarSelect">
+				<m:items>
+					<m:IconTabFilter id="idInvoiceTab" text="{i18n>InvoiceTitle}" key="info">
+						<m:ScrollContainer height="100%" width="100%" horizontal="false" vertical="true">
+							<m:FlexBox fitContainer="true" renderType="Bare" direction="Column">
+								<m:items>
+									<t:TAccountPanel id="panel" title="{i18n>Bills}">
+										<t:content>
+											<t:TAccountGroup id="incomes" title="{i18n>Income}" accounts="{path:'orderI>/'}">
+												<t:accounts>
+													<t:TAccount id="income" measureOfUnit="Ft" credit="{path: 'orderI>order/orderProductList', templateShareable:true}"
+														title="{orderI>order/customer/firstName} {orderI>order/customer/lastName}" subtitle="{orderI>order/orderDate}">
+														<t:credit>
+															<t:TAccountItem
+																value="{parts:[{path:'orderI>product/netPrice'},{path:'orderI>quantity'}], formatter: 'Project.Project.model.invoicePriceFormatter.invoicePrice'}"
+																press="onItemPress">
+																<t:properties>
+																	<t:TAccountItemProperty visible="false" key="product" value="{orderI>product/name}" label="{i18n>ProductName}"/>
+																	<t:TAccountItemProperty visible="false" key="quantity" value="{orderI>quantity} * {path:'orderI>product/netPrice'}"
+																		label="{i18n>Quantity} * {i18n>NetPrice}"/>
+																</t:properties>
+															</t:TAccountItem>
+														</t:credit>
+													</t:TAccount>
+												</t:accounts>
+											</t:TAccountGroup>
+											<t:TAccountGroup title="{i18n>Expense}" accounts="{path:'acI>/'}">
+												<t:accounts>
+													<t:TAccount measureOfUnit="Ft" title="{acI>seller/name}" subtitle="{acI>invoiceDate}">
+														<t:debit>
+															<t:TAccountItem value="{acI>totalPrice}"/>
+														</t:debit>
+													</t:TAccount>
+												</t:accounts>
+											</t:TAccountGroup>
+										</t:content>
+									</t:TAccountPanel>
+								</m:items>
+							</m:FlexBox>
+						</m:ScrollContainer>
+					</m:IconTabFilter>
+					<m:IconTabFilter id="idSellerInvoiceTab" text="{i18n>SellerInvoiceTab}" key="add">
+						<m:ScrollContainer height="100%" width="100%" horizontal="false" vertical="true">
+							<m:VBox class="sapUiSmallMargin">
+								<form:SimpleForm id="sellerInvoiceInfo" layout="ResponsiveGridLayout" title="{i18n>SellerInvoiceInfo}" labelSpanXL="3" labelSpanL="3"
+									labelSpanM="3" labelSpanS="12" adjustLabelSpan="false" emptySpanXL="4" emptySpanL="4" emptySpanM="4" emptySpanS="0" columnsXL="1"
+									columnsL="1" columnsM="1" singleContainerFullSize="false">
+									<form:content>
+										<m:MessageStrip class="sapUiSmallMarginBottom" text="{i18n>SellerInvoiceMSText}" showIcon="true"/>
+										<m:Label text="{i18n>Seller}"/>
+										<m:ComboBox width="50%" id="sellerSelect" showSecondaryValues="true" items="{ path: '/', sorter: { path: 'name' } }" required="true">
+											<core:ListItem key="{id}" text="{name}" additionalText="{id}"/>
+										</m:ComboBox>
+										<m:Label text="{i18n>InvoiceDate}"/>
+										<m:DatePicker required="true" id="invoiceDate" displayFormat="short" width="50%"/>
+										<m:Label text="{i18n>TotalPrice}"/>
+										<m:Input id="totalPrice" type="Number" required="true" width="50%"/>
+									</form:content>
+								</form:SimpleForm>
+							</m:VBox>
+						</m:ScrollContainer>
+					</m:IconTabFilter>
+				</m:items>
+			</m:IconTabBar>
+		</m:content>
+		<m:footer>
+			<m:Toolbar id="footer" visible="false">
+				<m:ToolbarSpacer/>
+				<m:Button id="idAddSellerInvoice" text="{i18n>Add}" class="sapUiSmallMargin" type="Accept" icon="sap-icon://add" press="onAddButtonPress"/>
+			</m:Toolbar>
+		</m:footer>
+	</m:Page>
+</mvc:View>

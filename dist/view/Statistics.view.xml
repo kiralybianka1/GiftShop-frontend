@@ -1,0 +1,100 @@
+<mvc:View controllerName="Project.Project.controller.Statistics" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc"
+	displayBlock="true" xmlns="sap.m" xmlns:l="sap.ui.layout" xmlns:mc="sap.suite.ui.microchart">
+	<Page title="{i18n>Statistics}">
+		<FlexBox class="flex-container">
+			<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop " header="{i18n>OtherStat1}" subheader="{i18n>CustomerStatistics}"
+				press="onCustomerStatPress">
+				<TileContent>
+					<mc:RadialMicroChart percentage="78" valueColor="Good"/>
+				</TileContent>
+			</GenericTile>
+			<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop" header="{i18n>CustomerStat2}" subheader="{i18n>CustomerStatistics}"
+				press="onCustomerStatPress">
+				<tileContent>
+					<TileContent>
+						<content>
+							<l:VerticalLayout class="sapUiTinyMargin">
+								<ImageContent src="sap-icon://geographic-bubble-chart"/>
+							</l:VerticalLayout>
+						</content>
+					</TileContent>
+				</tileContent>
+			</GenericTile>
+		</FlexBox>
+		<FlexBox class="flex-container">
+			<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop " header="{i18n>BillsStat1}" subheader="{i18n>BillsStatistics}"
+				press="onBillsStatPress">
+				<TileContent>
+					<mc:AreaMicroChart size="S" minXValue="0" maxXValue="100000" minYValue="0" maxYValue="100">
+						<mc:firstXLabel>
+							<mc:AreaMicroChartLabel color="Error"/>
+						</mc:firstXLabel>
+						<mc:lastXLabel>
+							<mc:AreaMicroChartLabel color="Good"/>
+						</mc:lastXLabel>
+						<mc:firstYLabel>
+							<mc:AreaMicroChartLabel color="Error"/>
+						</mc:firstYLabel>
+						<mc:lastYLabel>
+							<mc:AreaMicroChartLabel color="Good"/>
+						</mc:lastYLabel>
+						<mc:chart>
+							<mc:AreaMicroChartItem>
+								<mc:points>
+									<mc:AreaMicroChartPoint x="1500" y="0"/>
+									<mc:AreaMicroChartPoint x="20000" y="35"/>
+									<mc:AreaMicroChartPoint x="40000" y="30"/>
+									<mc:AreaMicroChartPoint x="55000" y="65"/>
+									<mc:AreaMicroChartPoint x="90000" y="81"/>
+								</mc:points>
+							</mc:AreaMicroChartItem>
+						</mc:chart>
+						<mc:target>
+							<mc:AreaMicroChartItem>
+								<mc:points>
+									<mc:AreaMicroChartPoint x="1500" y="0"/>
+									<mc:AreaMicroChartPoint x="20000" y="25"/>
+									<mc:AreaMicroChartPoint x="40000" y="35"/>
+									<mc:AreaMicroChartPoint x="60000" y="65"/>
+									<mc:AreaMicroChartPoint x="80000" y="92"/>
+								</mc:points>
+							</mc:AreaMicroChartItem>
+						</mc:target>
+						<mc:maxThreshold>
+							<mc:AreaMicroChartItem color="Good">
+								<mc:points>
+									<mc:AreaMicroChartPoint x="0" y="0"/>
+									<mc:AreaMicroChartPoint x="2000" y="10"/>
+									<mc:AreaMicroChartPoint x="25000" y="40"/>
+									<mc:AreaMicroChartPoint x="50000" y="50"/>
+									<mc:AreaMicroChartPoint x="100000" y="99"/>
+								</mc:points>
+							</mc:AreaMicroChartItem>
+						</mc:maxThreshold>
+						<mc:minThreshold>
+							<mc:AreaMicroChartItem color="Error">
+								<mc:points>
+									<mc:AreaMicroChartPoint x="0" y="0"/>
+									<mc:AreaMicroChartPoint x="2000" y="5"/>
+									<mc:AreaMicroChartPoint x="25000" y="25"/>
+									<mc:AreaMicroChartPoint x="50000" y="35"/>
+									<mc:AreaMicroChartPoint x="100000" y="70"/>
+								</mc:points>
+							</mc:AreaMicroChartItem>
+						</mc:minThreshold>
+					</mc:AreaMicroChart>
+				</TileContent>
+			</GenericTile>
+			<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop " header="{i18n>OtherStat2}" subheader="{i18n>BillsStatistics}"
+				press="onBillsStatPress">
+				<TileContent>
+					<mc:ComparisonMicroChart size="S">
+						<mc:ComparisonMicroChartData value="91" color="Good" displayValue="91"/>
+						<mc:ComparisonMicroChartData value="-46" color="Error" displayValue="-46"/>
+						<mc:ComparisonMicroChartData value="6" color="Critical" displayValue="13"/>
+					</mc:ComparisonMicroChart>
+				</TileContent>
+			</GenericTile>
+		</FlexBox>
+	</Page>
+</mvc:View>

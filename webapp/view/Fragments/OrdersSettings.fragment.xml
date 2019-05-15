@@ -1,0 +1,19 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core">
+	<ViewSettingsDialog id="idOrdersSettings" confirm="handleConfirm">
+		<sortItems>
+			<ViewSettingsItem text="{i18n>OrderID}" key="id" selected="true"/>
+			<ViewSettingsItem text="{i18n>OrderCustomer}-{i18n>FirstName}" key="customer/firstName"/>
+			<ViewSettingsItem text="{i18n>OrderCustomer}-{i18n>LastName}" key="customer/lastName"/>
+			<ViewSettingsItem text="{i18n>OrderDate}" key="orderDate"/>
+			<ViewSettingsItem text="{i18n>OrderFulfillDate}" key="fulfillDate"/>
+		</sortItems>
+		<filterItems>
+			<ViewSettingsFilterItem text="{i18n>Fulfillment}">
+				<items>
+					<ViewSettingsItem text="{i18n>Fulfilled}" key="fulfilled"/>
+					<ViewSettingsItem text="{i18n>NotFulfilled}" key="notfulfilled"/>
+				</items>
+			</ViewSettingsFilterItem>
+		</filterItems>
+	</ViewSettingsDialog>
+</core:FragmentDefinition>

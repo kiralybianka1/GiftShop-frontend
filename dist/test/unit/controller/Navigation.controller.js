@@ -1,0 +1,1 @@
+sap.ui.define(["Project/Project/controller/Navigation.controller"],function(t){"use strict";QUnit.module("Navigáció");QUnit.test("A navigáció tesztelése",function(i){var n=new t;n.onInit();i.ok(n)})});

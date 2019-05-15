@@ -1,0 +1,25 @@
+<mvc:View controllerName="Project.Project.controller.BillsStatistics" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc"
+	displayBlock="true" xmlns="sap.m" xmlns:viz="sap.viz.ui5.controls">
+	<Page title="{i18n>BillsStatistics} {i18n>Statistics}">
+		<content>
+			<IconTabBar id="idIconTabBarNoIcons" class="sapUiResponsiveContentPadding" stretchContentHeight="true" select="handleIconTabBarSelect">
+				<items>
+					<IconTabFilter text="{i18n>Expense}" key="expense">
+						<ScrollContainer height="100%" width="100%" horizontal="false" vertical="true">
+							<content>
+								<viz:VizFrame id="expenseChart" width="100%"/>
+							</content>
+						</ScrollContainer>
+					</IconTabFilter>
+					<IconTabFilter text="{i18n>OtherStat2}" key="productPriceStat">
+						<ScrollContainer height="100%" width="100%" horizontal="false" vertical="true">
+							<content>
+								<viz:VizFrame id="productChart" width="100%"/>
+							</content>
+						</ScrollContainer>
+					</IconTabFilter>
+				</items>
+			</IconTabBar>
+		</content>
+	</Page>
+</mvc:View>

@@ -1,0 +1,1 @@
+sap.ui.define(["sap/ui/test/Opa5"],function(t){"use strict";var s="BillsStatistics";t.createPageObjects({onTheBillsStatisticsPage:{actions:{},assertions:{iShouldSeeTheApp:function(){return this.waitFor({viewName:s,success:function(){t.assert.ok(true,"A pénzügyi statisztikák oldal megjelenik.")},errorMessage:"A pénzügyi statisztikák oldal nem található."})}}}})});

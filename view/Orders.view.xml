@@ -1,0 +1,104 @@
+<mvc:View controllerName="Project.Project.controller.Orders" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc"
+	displayBlock="true" xmlns="sap.m" xmlns:form="sap.ui.layout.form" xmlns:core="sap.ui.core" xmlns:u="sap.ui.unified">
+	<Page title="{i18n>Orders}">
+		<content>
+			<IconTabBar id="idIconTabBarNoIcons" class="sapUiResponsiveContentPadding" stretchContentHeight="true" select="handleIconTabBarSelect">
+				<items>
+					<IconTabFilter id="idOrderListTab" text="{i18n>OrderInfo}" key="info">
+						<ScrollContainer height="100%" width="100%" horizontal="false" vertical="true">
+							<VBox class="sapUiSmallMargin">
+								<OverflowToolbar>
+									<ToolbarSpacer/>
+									<SearchField id="idOrdersSearchField" liveChange="onSearch" width="25%" class="sapUiSmallMargin"/>
+									<Button id="sortButton" press="onOpenViewSettings" icon="sap-icon://sort" type="Transparent"/>
+									<Button id="filterButton" press="onOpenViewSettings" icon="sap-icon://filter" type="Transparent"/>
+								</OverflowToolbar>
+								<Table id="ordersTable" items="{ path:'/', sorter: { path: 'id', descending: false } }" mode="MultiSelect">
+									<columns>
+										<Column minScreenWidth="Tablet" demandPopin="true">
+											<Text text="{i18n>OrderID}"/>
+										</Column>
+										<Column>
+											<Text text="{i18n>OrderCustomer}"/>
+										</Column>
+										<Column>
+											<Text text="{i18n>OrderProducts}"/>
+										</Column>
+										<Column minScreenWidth="Tablet" demandPopin="true">
+											<Text text="{i18n>OrderDate}"/>
+										</Column>
+										<Column minScreenWidth="Tablet" demandPopin="true">
+											<Text text="{i18n>OrderFulfillDate}"/>
+										</Column>
+									</columns>
+									<items>
+										<ColumnListItem>
+											<cells>
+												<ObjectIdentifier title="{id}"/>
+												<ObjectIdentifier title="{customer/firstName} {customer/lastName}" titlePress="onCustomerPress" titleActive="true"/>
+												<ObjectIdentifier title="{i18n>OrderProducts}" titlePress="onProductsPress" titleActive="true"/>
+												<ObjectNumber number="{orderDate}"/>
+												<ObjectNumber number="{fulfillDate}"/>
+											</cells>
+										</ColumnListItem>
+									</items>
+								</Table>
+							</VBox>
+						</ScrollContainer>
+					</IconTabFilter>
+					<IconTabFilter id="idNewOrderTab" text="{i18n>OrderAdd}" key="add">
+						<ScrollContainer height="100%" width="100%" horizontal="false" vertical="true">
+							<Wizard id="orderWizard" complete="orderCompletedHandler">
+								<WizardStep id="customerWizard" title="{i18n>OCustomer}" validated="false" activate="customerValidation">
+									<MessageStrip class="sapUiSmallMarginBottom" text="{i18n>OCustomerMSText}" showIcon="true"/>
+									<Text class="sapUiSmallMarginBottom" text="{i18n>OCustomerInfo}"/>
+									<ComboBox width="50%" id="customerSelect" showSecondaryValues="true" items="{ path: '/', sorter: { path: 'lastName' } }"
+										selectionChange="customerValidation">
+										<core:ListItem key="{id}" text="{firstName} {lastName}" additionalText="{id}"/>
+									</ComboBox>
+								</WizardStep>
+								<WizardStep id="productWizard" title="{i18n>OProducts}" validated="false" activate="productValidation">
+									<MessageStrip class="sapUiSmallMarginBottom" text="{i18n>OProductsMSText}" showIcon="true"/>
+									<Text text="{i18n>OProductsInfo}"/>
+									<form:SimpleForm editable="true" layout="GridLayout" id="addProductForm">
+										<Label text="{i18n>OProductsAdd}"/>
+										<ComboBox id="productSelect" showSecondaryValues="true" items="{ path: '/', sorter: { path: 'name' } }">
+											<core:ListItem key="{id}" text="{name}" additionalText="{id}"/>
+										</ComboBox>
+										<StepInput id="productQuantity" min="1" description="{i18n>QuantityType}"/>
+										<Button id="idAddProduct" text="{i18n>Add}" width="50%" press="onProductAddButtonPress"/>
+									</form:SimpleForm>
+									<List id="productsList" mode="Delete" delete="handleProductDelete" headerText="{i18n>Products}"/>
+								</WizardStep>
+								<WizardStep id="dateWizard" title="{i18n>OOrder}" validated="true">
+									<MessageStrip class="sapUiSmallMarginBottom" text="{i18n>OOrderMSText}" showIcon="true"/>
+									<Text text="{i18n>OOrderInfo}"/>
+									<form:SimpleForm editable="true" layout="GridLayout" id="addOrderForm">
+										<Label text="{i18n>OOrdersDate}"/>
+										<DatePicker id="ordersDate" displayFormat="short" width="50%"/>
+										<Label text="{i18n>OOrdersFulfillDate}"/>
+										<DatePicker id="ordersFulfillDate" displayFormat="short" width="50%"/>
+										<Label text="{i18n>OBill}"/>
+										<SegmentedButton enabled="false" id="bill" class="sapUiSmallMarginBottom" selectedKey="Yes" width="50%"
+											selectionChange="onBillSelectionChange">
+											<items>
+												<SegmentedButtonItem text="{i18n>Yes}" key="Yes"/>
+												<SegmentedButtonItem text="{i18n>No}" key="No"/>
+											</items>
+										</SegmentedButton>
+									</form:SimpleForm>
+								</WizardStep>
+							</Wizard>
+						</ScrollContainer>
+					</IconTabFilter>
+				</items>
+			</IconTabBar>
+		</content>
+		<footer >
+			<Toolbar id="footer">
+				<ToolbarSpacer/>
+				<Button text="{i18n>Delete}" class="sapUiSmallMargin" type="Reject" icon="sap-icon://delete" press="onDeleteButtonPress"></Button>
+			</Toolbar>
+		</footer>
+	</Page>
+</mvc:View>

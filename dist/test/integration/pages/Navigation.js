@@ -1,0 +1,1 @@
+sap.ui.define(["sap/ui/test/Opa5"],function(e){"use strict";var i="Navigation";e.createPageObjects({onTheAppPage:{actions:{},assertions:{iShouldSeeTheApp:function(){return this.waitFor({id:"idAppControl",viewName:i,success:function(){e.assert.ok(true,"A navigációs oldal megjelenik.")},errorMessage:"A navigációs oldal nem található."})}}}})});

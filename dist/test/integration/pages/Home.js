@@ -1,0 +1,1 @@
+sap.ui.define(["sap/ui/test/Opa5"],function(e){"use strict";var a="Home";e.createPageObjects({onTheHomePage:{actions:{},assertions:{iShouldSeeTheApp:function(){return this.waitFor({viewName:a,success:function(){e.assert.ok(true,"A kezdőlap megjelenik.")},errorMessage:"A kezdőlap oldal nem található."})}}}})});

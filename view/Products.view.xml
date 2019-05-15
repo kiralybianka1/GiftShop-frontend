@@ -1,0 +1,32 @@
+<mvc:View controllerName="Project.Project.controller.Products" 
+	xmlns:html="http://www.w3.org/1999/xhtml" 
+	xmlns:mvc="sap.ui.core.mvc"
+	displayBlock="true" 
+	xmlns="sap.m">
+	<Page title="{i18n>Products}">
+		<content>
+			<OverflowToolbar>
+				<ToolbarSpacer/>
+				<SearchField id="idSearchField" liveChange="onSearch" width="25%" class="sapUiSmallMargin"/>
+				<Button id="sortButton" press="onOpenViewSettings" icon="sap-icon://sort" type="Transparent"/>
+				<Button id="filterButton" press="onOpenViewSettings" icon="sap-icon://filter" type="Transparent"/>
+				<Button id="idExport" tooltip="{i18n>Download}" icon="sap-icon://download" press="onDataExportButtonPressed"/>
+			</OverflowToolbar>
+			<Panel id="productsTable" content="{ path:'/', sorter: { path: 'name', descending: false } }">
+				<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="{name}" subheader="{category/name}" press="onProductPress"
+					headerImage="sap-icon://product">
+					<TileContent unit="Ft" footer="{netPrice}">
+						<NumericContent value="{quantity}" scale="{i18n>QuantityType}"
+							valueColor="{path: 'quantity', formatter: 'Project.Project.model.productsQuantityFormatter.quantityState'}"/>
+					</TileContent>
+				</GenericTile>
+			</Panel>
+		</content>
+		<footer>
+			<Toolbar>
+				<ToolbarSpacer/>
+				<Button id="idAddProduct" text="{i18n>Add}" class="sapUiSmallMargin" type="Accept" icon="sap-icon://add" press="onAddButtonPress"/>
+			</Toolbar>
+		</footer>
+	</Page>
+</mvc:View>

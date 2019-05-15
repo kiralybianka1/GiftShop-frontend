@@ -1,0 +1,1 @@
+sap.ui.define(["sap/ui/test/Opa5"],function(t){"use strict";var s="CustomerStatistics";t.createPageObjects({onTheCustomerStatisticsPage:{actions:{},assertions:{iShouldSeeTheApp:function(){return this.waitFor({viewName:s,success:function(){t.assert.ok(true,"A vásárlói statisztikák oldal megjelenik.")},errorMessage:"A vásárlói statisztikák oldal nem található."})}}}})});

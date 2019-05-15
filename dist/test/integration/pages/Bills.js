@@ -1,0 +1,1 @@
+sap.ui.define(["sap/ui/test/Opa5"],function(e){"use strict";var s="Bills";e.createPageObjects({onTheBillsPage:{actions:{},assertions:{iShouldSeeTheApp:function(){return this.waitFor({viewName:s,success:function(){e.assert.ok(true,"A számlák oldal megjelenik.")},errorMessage:"A számlák oldal nem található."})}}}})});

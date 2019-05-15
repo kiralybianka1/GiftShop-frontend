@@ -1,0 +1,29 @@
+[
+	{
+		"id": "1",
+		"name": "name1",
+		"description": "description1",
+		"category": "{}",
+		"netPrice": "",
+		"grossPrice": "",
+		"grossSellPrice": ""
+	},
+	{
+		"id": "2",
+		"name": "name2",
+		"description": "description2",
+		"category": "{}",
+		"netPrice": "",
+		"grossPrice": "",
+		"grossSellPrice": ""
+	},
+	{
+		"id": "3",
+		"name": "name3",
+		"description": "description3",
+		"category": "{}",
+		"netPrice": "",
+		"grossPrice": "",
+		"grossSellPrice": ""
+	}
+]

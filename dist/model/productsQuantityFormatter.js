@@ -1,0 +1,1 @@
+sap.ui.define(function(){"use strict";var r={quantityState:function(r){try{if(parseFloat(r)<=50){return"Error"}else if(parseFloat(r)<=100){return"Critical"}else if(parseFloat(r)>100){return"Good"}else{return"Error"}}catch(r){return"None"}}};return r},true);

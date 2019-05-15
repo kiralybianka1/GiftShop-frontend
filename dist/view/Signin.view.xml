@@ -1,0 +1,40 @@
+<mvc:View controllerName="Project.Project.controller.Signin" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc"
+	displayBlock="true" xmlns="sap.m" xmlns:l="sap.ui.layout" xmlns:form="sap.ui.layout.form">
+	<Page title="{i18n>Signin}">
+		<customHeader>
+			<Bar>
+				<contentMiddle>
+					<Title titleStyle="H2" text="{i18n>Signin}"/>
+				</contentMiddle>
+				<contentRight>
+					<Button tooltip="{i18n>Help}" icon="sap-icon://sys-help" press="onHelpPress"/>
+				</contentRight>
+			</Bar>
+		</customHeader>
+		<l:VerticalLayout class="sapUiContentPadding" id="oVerticalContent" width="100%"/>
+		<form:SimpleForm title="{i18n>Signin}" id="SimpleFormDisplay" layout="ResponsiveGridLayout" singleContainerFullSize="false" editable="true">
+			<form:content>
+				<VBox>
+					<l:VerticalLayout class="sapUiContentPadding" width="100%">
+						<l:content>
+							<Label text="{i18n>Username}" labelFor="productInput" required="true"/>
+							<Input id="usernameInput" type="Text" placeholder="{i18n>UsernameText}" required="true"/>
+						</l:content>
+					</l:VerticalLayout>
+					<l:VerticalLayout class="sapUiContentPadding" width="100%">
+						<l:content>
+							<Label text="{i18n>Password}" labelFor="passwordInput" required="true"/>
+							<Input id="passwordInput" type="Password" placeholder="{i18n>PasswordText}" required="true"/>
+						</l:content>
+					</l:VerticalLayout>
+					<l:VerticalLayout class="sapUiContentPadding" width="100%">
+						<HBox justifyContent="End">
+							<Button id="idSignin" text="{i18n>Signin}" class="sapUiSmallMarginEnd" press="onSigninPress"/>
+							<Button text="{i18n>Cancel}" class="sapUiSmallMarginEnd" press="onCancelPress"/>
+						</HBox>
+					</l:VerticalLayout>
+				</VBox>
+			</form:content>
+		</form:SimpleForm>
+	</Page>
+</mvc:View>

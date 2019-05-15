@@ -1,0 +1,2401 @@
+[{
+	"id": 6043,
+	"name": "name 1",
+	"description": "description 1",
+	"netPrice": 6043.81,
+	"grossPrice": 4782.39,
+	"grossSalePrice": 5449.66,
+	"quantity": 4782,
+	"stockId": "stockId 1",
+	"CategoryID": 9,
+	"__metadata": {
+		"uri": "products(6043)",
+		"type": "PROJECT.product"
+	},
+	"category": {
+		"__deferred": {
+			"uri": "products(6043)/category"
+		}
+	},
+	"orderProducts": {
+		"__deferred": {
+			"uri": "products(6043)/orderProducts"
+		}
+	}
+}, {
+	"id": 7566,
+	"name": "name 2",
+	"description": "description 2",
+	"netPrice": 7566.99,
+	"grossPrice": 8708.98,
+	"grossSalePrice": 2500.55,
+	"quantity": 8708,
+	"stockId": "stockId 2",
+	"CategoryID": 416,
+	"__metadata": {
+		"uri": "products(7566)",
+		"type": "PROJECT.product"
+	},
+	"category": {
+		"__deferred": {
+			"uri": "products(7566)/category"
+		}
+	},
+	"orderProducts": {
+		"__deferred": {
+			"uri": "products(7566)/orderProducts"
+		}
+	}
+}, {
+	"id": 7329,
+	"name": "name 3",
+	"description": "description 3",
+	"netPrice": 7329.31,
+	"grossPrice": 5370.75,
+	"grossSalePrice": 4086.07,
+	"quantity": 5370,
+	"stockId": "stockId 3",
+	"CategoryID": 6671,
+	"__metadata": {
+		"uri": "products(7329)",
+		"type": "PROJECT.product"
+	},
+	"category": {
+		"__deferred": {
+			"uri": "products(7329)/category"
+		}
+	},
+	"orderProducts": {
+		"__deferred": {
+			"uri": "products(7329)/orderProducts"
+		}
+	}
+}, {
+	"id": 7640,
+	"name": "name 4",
+	"description": "description 4",
+	"netPrice": 7640.19,
+	"grossPrice": 3914.64,
+	"grossSalePrice": 3359.28,
+	"quantity": 3914,
+	"stockId": "stockId 4",
+	"CategoryID": 2613,
+	"__metadata": {
+		"uri": "products(7640)",
+		"type": "PROJECT.product"
+	},
+	"category": {
+		"__deferred": {
+			"uri": "products(7640)/category"
+		}
+	},
+	"orderProducts": {
+		"__deferred": {
+			"uri": "products(7640)/orderProducts"
+		}
+	}
+}, {
+	"id": 4605,
+	"name": "name 5",
+	"description": "description 5",
+	"netPrice": 4605.26,
+	"grossPrice": 3684.2,
+	"grossSalePrice": 1902.14,
+	"quantity": 3684,
+	"stockId": "stockId 5",
+	"CategoryID": 7960,
+	"__metadata": {
+		"uri": "products(4605)",
+		"type": "PROJECT.product"
+	},
+	"category": {
+		"__deferred": {
+			"uri": "products(4605)/category"
+		}
+	},
+	"orderProducts": {
+		"__deferred": {
+			"uri": "products(4605)/orderProducts"
+		}
+	}
+}, {
+	"id": 161,
+	"name": "name 6",
+	"description": "description 6",
+	"netPrice": 161.29,
+	"grossPrice": 8419.26,
+	"grossSalePrice": 8175.99,
+	"quantity": 8419,
+	"stockId": "stockId 6",
+	"CategoryID": 2584,
+	"__metadata": {
+		"uri": "products(161)",
+		"type": "PROJECT.product"
+	},
+	"category": {
+		"__deferred": {
+			"uri": "products(161)/category"
+		}
+	},
+	"orderProducts": {
+		"__deferred": {
+			"uri": "products(161)/orderProducts"
+		}
+	}
+}, {
+	"id": 1149,
+	"name": "name 7",
+	"description": "description 7",
+	"netPrice": 1149.33,
+	"grossPrice": 4983.7,
+	"grossSalePrice": 8022.9,
+	"quantity": 4983,
+	"stockId": "stockId 7",
+	"CategoryID": 5101,
+	"__metadata": {
+		"uri": "products(1149)",
+		"type": "PROJECT.product"
+	},
+	"category": {
+		"__deferred": {
+			"uri": "products(1149)/category"
+		}
+	},
+	"orderProducts": {
+		"__deferred": {
+			"uri": "products(1149)/orderProducts"
+		}
+	}
+}, {
+	"id": 2652,
+	"name": "name 8",
+	"description": "description 8",
+	"netPrice": 2652.61,
+	"grossPrice": 3710.25,
+	"grossSalePrice": 7931.29,
+	"quantity": 3710,
+	"stockId": "stockId 8",
+	"CategoryID": 7638,
+	"__metadata": {
+		"uri": "products(2652)",
+		"type": "PROJECT.product"
+	},
+	"category": {
+		"__deferred": {
+			"uri": "products(2652)/category"
+		}
+	},
+	"orderProducts": {
+		"__deferred": {
+			"uri": "products(2652)/orderProducts"
+		}
+	}
+}, {
+	"id": 2456,
+	"name": "name 9",
+	"description": "description 9",
+	"netPrice": 2456.87,
+	"grossPrice": 1323.49,
+	"grossSalePrice": 3112.94,
+	"quantity": 1323,
+	"stockId": "stockId 9",
+	"CategoryID": 100,
+	"__metadata": {
+		"uri": "products(2456)",
+		"type": "PROJECT.product"
+	},
+	"category": {
+		"__deferred": {
+			"uri": "products(2456)/category"
+		}
+	},
+	"orderProducts": {
+		"__deferred": {
+			"uri": "products(2456)/orderProducts"
+		}
+	}
+}, {
+	"id": 5752,
+	"name": "name 10",
+	"description": "description 10",
+	"netPrice": 5752,
+	"grossPrice": 125.75,
+	"grossSalePrice": 4371.32,
+	"quantity": 125,
+	"stockId": "stockId 10",
+	"CategoryID": 8688,
+	"__metadata": {
+		"uri": "products(5752)",
+		"type": "PROJECT.product"
+	},
+	"category": {
+		"__deferred": {
+			"uri": "products(5752)/category"
+		}
+	},
+	"orderProducts": {
+		"__deferred": {
+			"uri": "products(5752)/orderProducts"
+		}
+	}
+}, {
+	"id": 4674,
+	"name": "name 11",
+	"description": "description 11",
+	"netPrice": 4674.12,
+	"grossPrice": 5518.34,
+	"grossSalePrice": 8766.93,
+	"quantity": 5518,
+	"stockId": "stockId 11",
+	"CategoryID": 9523,
+	"__metadata": {
+		"uri": "products(4674)",
+		"type": "PROJECT.product"
+	},
+	"category": {
+		"__deferred": {
+			"uri": "products(4674)/category"
+		}
+	},
+	"orderProducts": {
+		"__deferred": {
+			"uri": "products(4674)/orderProducts"
+		}
+	}
+}, {
+	"id": 6115,
+	"name": "name 12",
+	"description": "description 12",
+	"netPrice": 6115.93,
+	"grossPrice": 7083.6,
+	"grossSalePrice": 4670.93,
+	"quantity": 7083,
+	"stockId": "stockId 12",
+	"CategoryID": 8078,
+	"__metadata": {
+		"uri": "products(6115)",
+		"type": "PROJECT.product"
+	},
+	"category": {
+		"__deferred": {
+			"uri": "products(6115)/category"
+		}
+	},
+	"orderProducts": {
+		"__deferred": {
+			"uri": "products(6115)/orderProducts"
+		}
+	}
+}, {
+	"id": 6907,
+	"name": "name 13",
+	"description": "description 13",
+	"netPrice": 6907.69,
+	"grossPrice": 9079.71,
+	"grossSalePrice": 3112.69,
+	"quantity": 9079,
+	"stockId": "stockId 13",
+	"CategoryID": 3324,
+	"__metadata": {
+		"uri": "products(6907)",
+		"type": "PROJECT.product"
+	},
+	"category": {
+		"__deferred": {
+			"uri": "products(6907)/category"
+		}
+	},
+	"orderProducts": {
+		"__deferred": {
+			"uri": "products(6907)/orderProducts"
+		}
+	}
+}, {
+	"id": 3031,
+	"name": "name 14",
+	"description": "description 14",
+	"netPrice": 3031.7,
+	"grossPrice": 9250.56,
+	"grossSalePrice": 3227.49,
+	"quantity": 9250,
+	"stockId": "stockId 14",
+	"CategoryID": 591,
+	"__metadata": {
+		"uri": "products(3031)",
+		"type": "PROJECT.product"
+	},
+	"category": {
+		"__deferred": {
+			"uri": "products(3031)/category"
+		}
+	},
+	"orderProducts": {
+		"__deferred": {
+			"uri": "products(3031)/orderProducts"
+		}
+	}
+}, {
+	"id": 1860,
+	"name": "name 15",
+	"description": "description 15",
+	"netPrice": 1860.56,
+	"grossPrice": 1733.2,
+	"grossSalePrice": 9511.27,
+	"quantity": 1733,
+	"stockId": "stockId 15",
+	"CategoryID": 4853,
+	"__metadata": {
+		"uri": "products(1860)",
+		"type": "PROJECT.product"
+	},
+	"category": {
+		"__deferred": {
+			"uri": "products(1860)/category"
+		}
+	},
+	"orderProducts": {
+		"__deferred": {
+			"uri": "products(1860)/orderProducts"
+		}
+	}
+}, {
+	"id": 669,
+	"name": "name 16",
+	"description": "description 16",
+	"netPrice": 669.75,
+	"grossPrice": 6845.87,
+	"grossSalePrice": 9792.29,
+	"quantity": 6845,
+	"stockId": "stockId 16",
+	"CategoryID": 4053,
+	"__metadata": {
+		"uri": "products(669)",
+		"type": "PROJECT.product"
+	},
+	"category": {
+		"__deferred": {
+			"uri": "products(669)/category"
+		}
+	},
+	"orderProducts": {
+		"__deferred": {
+			"uri": "products(669)/orderProducts"
+		}
+	}
+}, {
+	"id": 5096,
+	"name": "name 17",
+	"description": "description 17",
+	"netPrice": 5096.2,
+	"grossPrice": 9497.1,
+	"grossSalePrice": 1346.18,
+	"quantity": 9497,
+	"stockId": "stockId 17",
+	"CategoryID": 7495,
+	"__metadata": {
+		"uri": "products(5096)",
+		"type": "PROJECT.product"
+	},
+	"category": {
+		"__deferred": {
+			"uri": "products(5096)/category"
+		}
+	},
+	"orderProducts": {
+		"__deferred": {
+			"uri": "products(5096)/orderProducts"
+		}
+	}
+}, {
+	"id": 417,
+	"name": "name 18",
+	"description": "description 18",
+	"netPrice": 417.68,
+	"grossPrice": 6235.02,
+	"grossSalePrice": 7773.48,
+	"quantity": 6235,
+	"stockId": "stockId 18",
+	"CategoryID": 7826,
+	"__metadata": {
+		"uri": "products(417)",
+		"type": "PROJECT.product"
+	},
+	"category": {
+		"__deferred": {
+			"uri": "products(417)/category"
+		}
+	},
+	"orderProducts": {
+		"__deferred": {
+			"uri": "products(417)/orderProducts"
+		}
+	}
+}, {
+	"id": 9393,
+	"name": "name 19",
+	"description": "description 19",
+	"netPrice": 9393.12,
+	"grossPrice": 569.42,
+	"grossSalePrice": 7560.25,
+	"quantity": 569,
+	"stockId": "stockId 19",
+	"CategoryID": 3812,
+	"__metadata": {
+		"uri": "products(9393)",
+		"type": "PROJECT.product"
+	},
+	"category": {
+		"__deferred": {
+			"uri": "products(9393)/category"
+		}
+	},
+	"orderProducts": {
+		"__deferred": {
+			"uri": "products(9393)/orderProducts"
+		}
+	}
+}, {
+	"id": 1345,
+	"name": "name 20",
+	"description": "description 20",
+	"netPrice": 1345.96,
+	"grossPrice": 3878.2,
+	"grossSalePrice": 9902.5,
+	"quantity": 3878,
+	"stockId": "stockId 20",
+	"CategoryID": 6152,
+	"__metadata": {
+		"uri": "products(1345)",
+		"type": "PROJECT.product"
+	},
+	"category": {
+		"__deferred": {
+			"uri": "products(1345)/category"
+		}
+	},
+	"orderProducts": {
+		"__deferred": {
+			"uri": "products(1345)/orderProducts"
+		}
+	}
+}, {
+	"id": 6417,
+	"name": "name 21",
+	"description": "description 21",
+	"netPrice": 6417.93,
+	"grossPrice": 1882.57,
+	"grossSalePrice": 630.98,
+	"quantity": 1882,
+	"stockId": "stockId 21",
+	"CategoryID": 7116,
+	"__metadata": {
+		"uri": "products(6417)",
+		"type": "PROJECT.product"
+	},
+	"category": {
+		"__deferred": {
+			"uri": "products(6417)/category"
+		}
+	},
+	"orderProducts": {
+		"__deferred": {
+			"uri": "products(6417)/orderProducts"
+		}
+	}
+}, {
+	"id": 7729,
+	"name": "name 22",
+	"description": "description 22",
+	"netPrice": 7729.26,
+	"grossPrice": 7802.74,
+	"grossSalePrice": 9982.61,
+	"quantity": 7802,
+	"stockId": "stockId 22",
+	"CategoryID": 3189,
+	"__metadata": {
+		"uri": "products(7729)",
+		"type": "PROJECT.product"
+	},
+	"category": {
+		"__deferred": {
+			"uri": "products(7729)/category"
+		}
+	},
+	"orderProducts": {
+		"__deferred": {
+			"uri": "products(7729)/orderProducts"
+		}
+	}
+}, {
+	"id": 3648,
+	"name": "name 23",
+	"description": "description 23",
+	"netPrice": 3648.92,
+	"grossPrice": 7402.7,
+	"grossSalePrice": 607.2,
+	"quantity": 7402,
+	"stockId": "stockId 23",
+	"CategoryID": 2884,
+	"__metadata": {
+		"uri": "products(3648)",
+		"type": "PROJECT.product"
+	},
+	"category": {
+		"__deferred": {
+			"uri": "products(3648)/category"
+		}
+	},
+	"orderProducts": {
+		"__deferred": {
+			"uri": "products(3648)/orderProducts"
+		}
+	}
+}, {
+	"id": 4556,
+	"name": "name 24",
+	"description": "description 24",
+	"netPrice": 4556.7,
+	"grossPrice": 5647.55,
+	"grossSalePrice": 5848.36,
+	"quantity": 5647,
+	"stockId": "stockId 24",
+	"CategoryID": 6673,
+	"__metadata": {
+		"uri": "products(4556)",
+		"type": "PROJECT.product"
+	},
+	"category": {
+		"__deferred": {
+			"uri": "products(4556)/category"
+		}
+	},
+	"orderProducts": {
+		"__deferred": {
+			"uri": "products(4556)/orderProducts"
+		}
+	}
+}, {
+	"id": 4489,
+	"name": "name 25",
+	"description": "description 25",
+	"netPrice": 4489.79,
+	"grossPrice": 9979.36,
+	"grossSalePrice": 232.21,
+	"quantity": 9979,
+	"stockId": "stockId 25",
+	"CategoryID": 3050,
+	"__metadata": {
+		"uri": "products(4489)",
+		"type": "PROJECT.product"
+	},
+	"category": {
+		"__deferred": {
+			"uri": "products(4489)/category"
+		}
+	},
+	"orderProducts": {
+		"__deferred": {
+			"uri": "products(4489)/orderProducts"
+		}
+	}
+}, {
+	"id": 894,
+	"name": "name 26",
+	"description": "description 26",
+	"netPrice": 894.88,
+	"grossPrice": 175.38,
+	"grossSalePrice": 7278.24,
+	"quantity": 175,
+	"stockId": "stockId 26",
+	"CategoryID": 2114,
+	"__metadata": {
+		"uri": "products(894)",
+		"type": "PROJECT.product"
+	},
+	"category": {
+		"__deferred": {
+			"uri": "products(894)/category"
+		}
+	},
+	"orderProducts": {
+		"__deferred": {
+			"uri": "products(894)/orderProducts"
+		}
+	}
+}, {
+	"id": 2646,
+	"name": "name 27",
+	"description": "description 27",
+	"netPrice": 2646.25,
+	"grossPrice": 7045.94,
+	"grossSalePrice": 8660.94,
+	"quantity": 7045,
+	"stockId": "stockId 27",
+	"CategoryID": 865,
+	"__metadata": {
+		"uri": "products(2646)",
+		"type": "PROJECT.product"
+	},
+	"category": {
+		"__deferred": {
+			"uri": "products(2646)/category"
+		}
+	},
+	"orderProducts": {
+		"__deferred": {
+			"uri": "products(2646)/orderProducts"
+		}
+	}
+}, {
+	"id": 5852,
+	"name": "name 28",
+	"description": "description 28",
+	"netPrice": 5852.67,
+	"grossPrice": 3945.37,
+	"grossSalePrice": 3831.24,
+	"quantity": 3945,
+	"stockId": "stockId 28",
+	"CategoryID": 7131,
+	"__metadata": {
+		"uri": "products(5852)",
+		"type": "PROJECT.product"
+	},
+	"category": {
+		"__deferred": {
+			"uri": "products(5852)/category"
+		}
+	},
+	"orderProducts": {
+		"__deferred": {
+			"uri": "products(5852)/orderProducts"
+		}
+	}
+}, {
+	"id": 7322,
+	"name": "name 29",
+	"description": "description 29",
+	"netPrice": 7322.08,
+	"grossPrice": 7729.53,
+	"grossSalePrice": 6955.19,
+	"quantity": 7729,
+	"stockId": "stockId 29",
+	"CategoryID": 4669,
+	"__metadata": {
+		"uri": "products(7322)",
+		"type": "PROJECT.product"
+	},
+	"category": {
+		"__deferred": {
+			"uri": "products(7322)/category"
+		}
+	},
+	"orderProducts": {
+		"__deferred": {
+			"uri": "products(7322)/orderProducts"
+		}
+	}
+}, {
+	"id": 774,
+	"name": "name 30",
+	"description": "description 30",
+	"netPrice": 774.39,
+	"grossPrice": 2700.97,
+	"grossSalePrice": 9898.55,
+	"quantity": 2700,
+	"stockId": "stockId 30",
+	"CategoryID": 5584,
+	"__metadata": {
+		"uri": "products(774)",
+		"type": "PROJECT.product"
+	},
+	"category": {
+		"__deferred": {
+			"uri": "products(774)/category"
+		}
+	},
+	"orderProducts": {
+		"__deferred": {
+			"uri": "products(774)/orderProducts"
+		}
+	}
+}, {
+	"id": 4991,
+	"name": "name 31",
+	"description": "description 31",
+	"netPrice": 4991.54,
+	"grossPrice": 1056.39,
+	"grossSalePrice": 5185.03,
+	"quantity": 1056,
+	"stockId": "stockId 31",
+	"CategoryID": 5582,
+	"__metadata": {
+		"uri": "products(4991)",
+		"type": "PROJECT.product"
+	},
+	"category": {
+		"__deferred": {
+			"uri": "products(4991)/category"
+		}
+	},
+	"orderProducts": {
+		"__deferred": {
+			"uri": "products(4991)/orderProducts"
+		}
+	}
+}, {
+	"id": 9735,
+	"name": "name 32",
+	"description": "description 32",
+	"netPrice": 9735.81,
+	"grossPrice": 3094.24,
+	"grossSalePrice": 6417.56,
+	"quantity": 3094,
+	"stockId": "stockId 32",
+	"CategoryID": 9889,
+	"__metadata": {
+		"uri": "products(9735)",
+		"type": "PROJECT.product"
+	},
+	"category": {
+		"__deferred": {
+			"uri": "products(9735)/category"
+		}
+	},
+	"orderProducts": {
+		"__deferred": {
+			"uri": "products(9735)/orderProducts"
+		}
+	}
+}, {
+	"id": 7507,
+	"name": "name 33",
+	"description": "description 33",
+	"netPrice": 7507,
+	"grossPrice": 923.02,
+	"grossSalePrice": 1827.95,
+	"quantity": 923,
+	"stockId": "stockId 33",
+	"CategoryID": 2209,
+	"__metadata": {
+		"uri": "products(7507)",
+		"type": "PROJECT.product"
+	},
+	"category": {
+		"__deferred": {
+			"uri": "products(7507)/category"
+		}
+	},
+	"orderProducts": {
+		"__deferred": {
+			"uri": "products(7507)/orderProducts"
+		}
+	}
+}, {
+	"id": 1065,
+	"name": "name 34",
+	"description": "description 34",
+	"netPrice": 1065.79,
+	"grossPrice": 1088.57,
+	"grossSalePrice": 6144.81,
+	"quantity": 1088,
+	"stockId": "stockId 34",
+	"CategoryID": 9106,
+	"__metadata": {
+		"uri": "products(1065)",
+		"type": "PROJECT.product"
+	},
+	"category": {
+		"__deferred": {
+			"uri": "products(1065)/category"
+		}
+	},
+	"orderProducts": {
+		"__deferred": {
+			"uri": "products(1065)/orderProducts"
+		}
+	}
+}, {
+	"id": 4403,
+	"name": "name 35",
+	"description": "description 35",
+	"netPrice": 4403.83,
+	"grossPrice": 8447.5,
+	"grossSalePrice": 5271.63,
+	"quantity": 8447,
+	"stockId": "stockId 35",
+	"CategoryID": 5632,
+	"__metadata": {
+		"uri": "products(4403)",
+		"type": "PROJECT.product"
+	},
+	"category": {
+		"__deferred": {
+			"uri": "products(4403)/category"
+		}
+	},
+	"orderProducts": {
+		"__deferred": {
+			"uri": "products(4403)/orderProducts"
+		}
+	}
+}, {
+	"id": 5090,
+	"name": "name 36",
+	"description": "description 36",
+	"netPrice": 5090.7,
+	"grossPrice": 9287.05,
+	"grossSalePrice": 7469.01,
+	"quantity": 9287,
+	"stockId": "stockId 36",
+	"CategoryID": 517,
+	"__metadata": {
+		"uri": "products(5090)",
+		"type": "PROJECT.product"
+	},
+	"category": {
+		"__deferred": {
+			"uri": "products(5090)/category"
+		}
+	},
+	"orderProducts": {
+		"__deferred": {
+			"uri": "products(5090)/orderProducts"
+		}
+	}
+}, {
+	"id": 8491,
+	"name": "name 37",
+	"description": "description 37",
+	"netPrice": 8491.91,
+	"grossPrice": 2695.42,
+	"grossSalePrice": 641.43,
+	"quantity": 2695,
+	"stockId": "stockId 37",
+	"CategoryID": 5272,
+	"__metadata": {
+		"uri": "products(8491)",
+		"type": "PROJECT.product"
+	},
+	"category": {
+		"__deferred": {
+			"uri": "products(8491)/category"
+		}
+	},
+	"orderProducts": {
+		"__deferred": {
+			"uri": "products(8491)/orderProducts"
+		}
+	}
+}, {
+	"id": 2565,
+	"name": "name 38",
+	"description": "description 38",
+	"netPrice": 2565.08,
+	"grossPrice": 3323.89,
+	"grossSalePrice": 6554.97,
+	"quantity": 3323,
+	"stockId": "stockId 38",
+	"CategoryID": 6084,
+	"__metadata": {
+		"uri": "products(2565)",
+		"type": "PROJECT.product"
+	},
+	"category": {
+		"__deferred": {
+			"uri": "products(2565)/category"
+		}
+	},
+	"orderProducts": {
+		"__deferred": {
+			"uri": "products(2565)/orderProducts"
+		}
+	}
+}, {
+	"id": 6819,
+	"name": "name 39",
+	"description": "description 39",
+	"netPrice": 6819.37,
+	"grossPrice": 2021.17,
+	"grossSalePrice": 7432.26,
+	"quantity": 2021,
+	"stockId": "stockId 39",
+	"CategoryID": 3899,
+	"__metadata": {
+		"uri": "products(6819)",
+		"type": "PROJECT.product"
+	},
+	"category": {
+		"__deferred": {
+			"uri": "products(6819)/category"
+		}
+	},
+	"orderProducts": {
+		"__deferred": {
+			"uri": "products(6819)/orderProducts"
+		}
+	}
+}, {
+	"id": 5864,
+	"name": "name 40",
+	"description": "description 40",
+	"netPrice": 5864.16,
+	"grossPrice": 7960.92,
+	"grossSalePrice": 2368.15,
+	"quantity": 7960,
+	"stockId": "stockId 40",
+	"CategoryID": 539,
+	"__metadata": {
+		"uri": "products(5864)",
+		"type": "PROJECT.product"
+	},
+	"category": {
+		"__deferred": {
+			"uri": "products(5864)/category"
+		}
+	},
+	"orderProducts": {
+		"__deferred": {
+			"uri": "products(5864)/orderProducts"
+		}
+	}
+}, {
+	"id": 9983,
+	"name": "name 41",
+	"description": "description 41",
+	"netPrice": 9983.08,
+	"grossPrice": 6173.6,
+	"grossSalePrice": 299.2,
+	"quantity": 6173,
+	"stockId": "stockId 41",
+	"CategoryID": 6592,
+	"__metadata": {
+		"uri": "products(9983)",
+		"type": "PROJECT.product"
+	},
+	"category": {
+		"__deferred": {
+			"uri": "products(9983)/category"
+		}
+	},
+	"orderProducts": {
+		"__deferred": {
+			"uri": "products(9983)/orderProducts"
+		}
+	}
+}, {
+	"id": 9916,
+	"name": "name 42",
+	"description": "description 42",
+	"netPrice": 9916.64,
+	"grossPrice": 7279.44,
+	"grossSalePrice": 1140.17,
+	"quantity": 7279,
+	"stockId": "stockId 42",
+	"CategoryID": 3731,
+	"__metadata": {
+		"uri": "products(9916)",
+		"type": "PROJECT.product"
+	},
+	"category": {
+		"__deferred": {
+			"uri": "products(9916)/category"
+		}
+	},
+	"orderProducts": {
+		"__deferred": {
+			"uri": "products(9916)/orderProducts"
+		}
+	}
+}, {
+	"id": 9131,
+	"name": "name 43",
+	"description": "description 43",
+	"netPrice": 9131.58,
+	"grossPrice": 2057.81,
+	"grossSalePrice": 6976.51,
+	"quantity": 2057,
+	"stockId": "stockId 43",
+	"CategoryID": 9240,
+	"__metadata": {
+		"uri": "products(9131)",
+		"type": "PROJECT.product"
+	},
+	"category": {
+		"__deferred": {
+			"uri": "products(9131)/category"
+		}
+	},
+	"orderProducts": {
+		"__deferred": {
+			"uri": "products(9131)/orderProducts"
+		}
+	}
+}, {
+	"id": 244,
+	"name": "name 44",
+	"description": "description 44",
+	"netPrice": 244.84,
+	"grossPrice": 5440.58,
+	"grossSalePrice": 2308.39,
+	"quantity": 5440,
+	"stockId": "stockId 44",
+	"CategoryID": 7680,
+	"__metadata": {
+		"uri": "products(244)",
+		"type": "PROJECT.product"
+	},
+	"category": {
+		"__deferred": {
+			"uri": "products(244)/category"
+		}
+	},
+	"orderProducts": {
+		"__deferred": {
+			"uri": "products(244)/orderProducts"
+		}
+	}
+}, {
+	"id": 9152,
+	"name": "name 45",
+	"description": "description 45",
+	"netPrice": 9152.05,
+	"grossPrice": 794.39,
+	"grossSalePrice": 7558.12,
+	"quantity": 794,
+	"stockId": "stockId 45",
+	"CategoryID": 5575,
+	"__metadata": {
+		"uri": "products(9152)",
+		"type": "PROJECT.product"
+	},
+	"category": {
+		"__deferred": {
+			"uri": "products(9152)/category"
+		}
+	},
+	"orderProducts": {
+		"__deferred": {
+			"uri": "products(9152)/orderProducts"
+		}
+	}
+}, {
+	"id": 4374,
+	"name": "name 46",
+	"description": "description 46",
+	"netPrice": 4374.07,
+	"grossPrice": 7558.89,
+	"grossSalePrice": 6854.46,
+	"quantity": 7558,
+	"stockId": "stockId 46",
+	"CategoryID": 4212,
+	"__metadata": {
+		"uri": "products(4374)",
+		"type": "PROJECT.product"
+	},
+	"category": {
+		"__deferred": {
+			"uri": "products(4374)/category"
+		}
+	},
+	"orderProducts": {
+		"__deferred": {
+			"uri": "products(4374)/orderProducts"
+		}
+	}
+}, {
+	"id": 4052,
+	"name": "name 47",
+	"description": "description 47",
+	"netPrice": 4052.43,
+	"grossPrice": 9096.06,
+	"grossSalePrice": 5179.11,
+	"quantity": 9096,
+	"stockId": "stockId 47",
+	"CategoryID": 2621,
+	"__metadata": {
+		"uri": "products(4052)",
+		"type": "PROJECT.product"
+	},
+	"category": {
+		"__deferred": {
+			"uri": "products(4052)/category"
+		}
+	},
+	"orderProducts": {
+		"__deferred": {
+			"uri": "products(4052)/orderProducts"
+		}
+	}
+}, {
+	"id": 6628,
+	"name": "name 48",
+	"description": "description 48",
+	"netPrice": 6628.69,
+	"grossPrice": 5651.05,
+	"grossSalePrice": 6614.71,
+	"quantity": 5651,
+	"stockId": "stockId 48",
+	"CategoryID": 4078,
+	"__metadata": {
+		"uri": "products(6628)",
+		"type": "PROJECT.product"
+	},
+	"category": {
+		"__deferred": {
+			"uri": "products(6628)/category"
+		}
+	},
+	"orderProducts": {
+		"__deferred": {
+			"uri": "products(6628)/orderProducts"
+		}
+	}
+}, {
+	"id": 1603,
+	"name": "name 49",
+	"description": "description 49",
+	"netPrice": 1603.58,
+	"grossPrice": 9965.45,
+	"grossSalePrice": 7029.39,
+	"quantity": 9965,
+	"stockId": "stockId 49",
+	"CategoryID": 9244,
+	"__metadata": {
+		"uri": "products(1603)",
+		"type": "PROJECT.product"
+	},
+	"category": {
+		"__deferred": {
+			"uri": "products(1603)/category"
+		}
+	},
+	"orderProducts": {
+		"__deferred": {
+			"uri": "products(1603)/orderProducts"
+		}
+	}
+}, {
+	"id": 9161,
+	"name": "name 50",
+	"description": "description 50",
+	"netPrice": 9161.28,
+	"grossPrice": 381.45,
+	"grossSalePrice": 6610.99,
+	"quantity": 381,
+	"stockId": "stockId 50",
+	"CategoryID": 6336,
+	"__metadata": {
+		"uri": "products(9161)",
+		"type": "PROJECT.product"
+	},
+	"category": {
+		"__deferred": {
+			"uri": "products(9161)/category"
+		}
+	},
+	"orderProducts": {
+		"__deferred": {
+			"uri": "products(9161)/orderProducts"
+		}
+	}
+}, {
+	"id": 2813,
+	"name": "name 51",
+	"description": "description 51",
+	"netPrice": 2813.34,
+	"grossPrice": 8365.37,
+	"grossSalePrice": 2741.95,
+	"quantity": 8365,
+	"stockId": "stockId 51",
+	"CategoryID": 7555,
+	"__metadata": {
+		"uri": "products(2813)",
+		"type": "PROJECT.product"
+	},
+	"category": {
+		"__deferred": {
+			"uri": "products(2813)/category"
+		}
+	},
+	"orderProducts": {
+		"__deferred": {
+			"uri": "products(2813)/orderProducts"
+		}
+	}
+}, {
+	"id": 8221,
+	"name": "name 52",
+	"description": "description 52",
+	"netPrice": 8221.66,
+	"grossPrice": 9014.94,
+	"grossSalePrice": 3820.92,
+	"quantity": 9014,
+	"stockId": "stockId 52",
+	"CategoryID": 9799,
+	"__metadata": {
+		"uri": "products(8221)",
+		"type": "PROJECT.product"
+	},
+	"category": {
+		"__deferred": {
+			"uri": "products(8221)/category"
+		}
+	},
+	"orderProducts": {
+		"__deferred": {
+			"uri": "products(8221)/orderProducts"
+		}
+	}
+}, {
+	"id": 9056,
+	"name": "name 53",
+	"description": "description 53",
+	"netPrice": 9056.81,
+	"grossPrice": 1891.03,
+	"grossSalePrice": 7807.61,
+	"quantity": 1891,
+	"stockId": "stockId 53",
+	"CategoryID": 5976,
+	"__metadata": {
+		"uri": "products(9056)",
+		"type": "PROJECT.product"
+	},
+	"category": {
+		"__deferred": {
+			"uri": "products(9056)/category"
+		}
+	},
+	"orderProducts": {
+		"__deferred": {
+			"uri": "products(9056)/orderProducts"
+		}
+	}
+}, {
+	"id": 2539,
+	"name": "name 54",
+	"description": "description 54",
+	"netPrice": 2539.3,
+	"grossPrice": 1147.67,
+	"grossSalePrice": 968.36,
+	"quantity": 1147,
+	"stockId": "stockId 54",
+	"CategoryID": 3090,
+	"__metadata": {
+		"uri": "products(2539)",
+		"type": "PROJECT.product"
+	},
+	"category": {
+		"__deferred": {
+			"uri": "products(2539)/category"
+		}
+	},
+	"orderProducts": {
+		"__deferred": {
+			"uri": "products(2539)/orderProducts"
+		}
+	}
+}, {
+	"id": 7513,
+	"name": "name 55",
+	"description": "description 55",
+	"netPrice": 7513.05,
+	"grossPrice": 3422.95,
+	"grossSalePrice": 3873.69,
+	"quantity": 3422,
+	"stockId": "stockId 55",
+	"CategoryID": 1297,
+	"__metadata": {
+		"uri": "products(7513)",
+		"type": "PROJECT.product"
+	},
+	"category": {
+		"__deferred": {
+			"uri": "products(7513)/category"
+		}
+	},
+	"orderProducts": {
+		"__deferred": {
+			"uri": "products(7513)/orderProducts"
+		}
+	}
+}, {
+	"id": 4786,
+	"name": "name 56",
+	"description": "description 56",
+	"netPrice": 4786.07,
+	"grossPrice": 3981.98,
+	"grossSalePrice": 1970.09,
+	"quantity": 3981,
+	"stockId": "stockId 56",
+	"CategoryID": 3101,
+	"__metadata": {
+		"uri": "products(4786)",
+		"type": "PROJECT.product"
+	},
+	"category": {
+		"__deferred": {
+			"uri": "products(4786)/category"
+		}
+	},
+	"orderProducts": {
+		"__deferred": {
+			"uri": "products(4786)/orderProducts"
+		}
+	}
+}, {
+	"id": 5466,
+	"name": "name 57",
+	"description": "description 57",
+	"netPrice": 5466.61,
+	"grossPrice": 4830.39,
+	"grossSalePrice": 5742.54,
+	"quantity": 4830,
+	"stockId": "stockId 57",
+	"CategoryID": 9545,
+	"__metadata": {
+		"uri": "products(5466)",
+		"type": "PROJECT.product"
+	},
+	"category": {
+		"__deferred": {
+			"uri": "products(5466)/category"
+		}
+	},
+	"orderProducts": {
+		"__deferred": {
+			"uri": "products(5466)/orderProducts"
+		}
+	}
+}, {
+	"id": 7905,
+	"name": "name 58",
+	"description": "description 58",
+	"netPrice": 7905.9,
+	"grossPrice": 1456.66,
+	"grossSalePrice": 6776.06,
+	"quantity": 1456,
+	"stockId": "stockId 58",
+	"CategoryID": 4880,
+	"__metadata": {
+		"uri": "products(7905)",
+		"type": "PROJECT.product"
+	},
+	"category": {
+		"__deferred": {
+			"uri": "products(7905)/category"
+		}
+	},
+	"orderProducts": {
+		"__deferred": {
+			"uri": "products(7905)/orderProducts"
+		}
+	}
+}, {
+	"id": 9296,
+	"name": "name 59",
+	"description": "description 59",
+	"netPrice": 9296.18,
+	"grossPrice": 4824.4,
+	"grossSalePrice": 8357,
+	"quantity": 4824,
+	"stockId": "stockId 59",
+	"CategoryID": 3507,
+	"__metadata": {
+		"uri": "products(9296)",
+		"type": "PROJECT.product"
+	},
+	"category": {
+		"__deferred": {
+			"uri": "products(9296)/category"
+		}
+	},
+	"orderProducts": {
+		"__deferred": {
+			"uri": "products(9296)/orderProducts"
+		}
+	}
+}, {
+	"id": 8657,
+	"name": "name 60",
+	"description": "description 60",
+	"netPrice": 8657.05,
+	"grossPrice": 8759.28,
+	"grossSalePrice": 9756.14,
+	"quantity": 8759,
+	"stockId": "stockId 60",
+	"CategoryID": 2537,
+	"__metadata": {
+		"uri": "products(8657)",
+		"type": "PROJECT.product"
+	},
+	"category": {
+		"__deferred": {
+			"uri": "products(8657)/category"
+		}
+	},
+	"orderProducts": {
+		"__deferred": {
+			"uri": "products(8657)/orderProducts"
+		}
+	}
+}, {
+	"id": 2226,
+	"name": "name 61",
+	"description": "description 61",
+	"netPrice": 2226.78,
+	"grossPrice": 2885.75,
+	"grossSalePrice": 470.75,
+	"quantity": 2885,
+	"stockId": "stockId 61",
+	"CategoryID": 5393,
+	"__metadata": {
+		"uri": "products(2226)",
+		"type": "PROJECT.product"
+	},
+	"category": {
+		"__deferred": {
+			"uri": "products(2226)/category"
+		}
+	},
+	"orderProducts": {
+		"__deferred": {
+			"uri": "products(2226)/orderProducts"
+		}
+	}
+}, {
+	"id": 6693,
+	"name": "name 62",
+	"description": "description 62",
+	"netPrice": 6693.56,
+	"grossPrice": 7172.78,
+	"grossSalePrice": 6846.19,
+	"quantity": 7172,
+	"stockId": "stockId 62",
+	"CategoryID": 4076,
+	"__metadata": {
+		"uri": "products(6693)",
+		"type": "PROJECT.product"
+	},
+	"category": {
+		"__deferred": {
+			"uri": "products(6693)/category"
+		}
+	},
+	"orderProducts": {
+		"__deferred": {
+			"uri": "products(6693)/orderProducts"
+		}
+	}
+}, {
+	"id": 6283,
+	"name": "name 63",
+	"description": "description 63",
+	"netPrice": 6283.99,
+	"grossPrice": 6634.98,
+	"grossSalePrice": 8107.66,
+	"quantity": 6634,
+	"stockId": "stockId 63",
+	"CategoryID": 2192,
+	"__metadata": {
+		"uri": "products(6283)",
+		"type": "PROJECT.product"
+	},
+	"category": {
+		"__deferred": {
+			"uri": "products(6283)/category"
+		}
+	},
+	"orderProducts": {
+		"__deferred": {
+			"uri": "products(6283)/orderProducts"
+		}
+	}
+}, {
+	"id": 9962,
+	"name": "name 64",
+	"description": "description 64",
+	"netPrice": 9962.23,
+	"grossPrice": 75.73,
+	"grossSalePrice": 1567.06,
+	"quantity": 75,
+	"stockId": "stockId 64",
+	"CategoryID": 8733,
+	"__metadata": {
+		"uri": "products(9962)",
+		"type": "PROJECT.product"
+	},
+	"category": {
+		"__deferred": {
+			"uri": "products(9962)/category"
+		}
+	},
+	"orderProducts": {
+		"__deferred": {
+			"uri": "products(9962)/orderProducts"
+		}
+	}
+}, {
+	"id": 9722,
+	"name": "name 65",
+	"description": "description 65",
+	"netPrice": 9722.63,
+	"grossPrice": 5483.08,
+	"grossSalePrice": 191.37,
+	"quantity": 5483,
+	"stockId": "stockId 65",
+	"CategoryID": 9210,
+	"__metadata": {
+		"uri": "products(9722)",
+		"type": "PROJECT.product"
+	},
+	"category": {
+		"__deferred": {
+			"uri": "products(9722)/category"
+		}
+	},
+	"orderProducts": {
+		"__deferred": {
+			"uri": "products(9722)/orderProducts"
+		}
+	}
+}, {
+	"id": 3119,
+	"name": "name 66",
+	"description": "description 66",
+	"netPrice": 3119.58,
+	"grossPrice": 2140.22,
+	"grossSalePrice": 1661.61,
+	"quantity": 2140,
+	"stockId": "stockId 66",
+	"CategoryID": 2390,
+	"__metadata": {
+		"uri": "products(3119)",
+		"type": "PROJECT.product"
+	},
+	"category": {
+		"__deferred": {
+			"uri": "products(3119)/category"
+		}
+	},
+	"orderProducts": {
+		"__deferred": {
+			"uri": "products(3119)/orderProducts"
+		}
+	}
+}, {
+	"id": 450,
+	"name": "name 67",
+	"description": "description 67",
+	"netPrice": 450.3,
+	"grossPrice": 2771.79,
+	"grossSalePrice": 2022.95,
+	"quantity": 2771,
+	"stockId": "stockId 67",
+	"CategoryID": 2606,
+	"__metadata": {
+		"uri": "products(450)",
+		"type": "PROJECT.product"
+	},
+	"category": {
+		"__deferred": {
+			"uri": "products(450)/category"
+		}
+	},
+	"orderProducts": {
+		"__deferred": {
+			"uri": "products(450)/orderProducts"
+		}
+	}
+}, {
+	"id": 72,
+	"name": "name 68",
+	"description": "description 68",
+	"netPrice": 72.84,
+	"grossPrice": 4881.75,
+	"grossSalePrice": 7647.49,
+	"quantity": 4881,
+	"stockId": "stockId 68",
+	"CategoryID": 253,
+	"__metadata": {
+		"uri": "products(72)",
+		"type": "PROJECT.product"
+	},
+	"category": {
+		"__deferred": {
+			"uri": "products(72)/category"
+		}
+	},
+	"orderProducts": {
+		"__deferred": {
+			"uri": "products(72)/orderProducts"
+		}
+	}
+}, {
+	"id": 6070,
+	"name": "name 69",
+	"description": "description 69",
+	"netPrice": 6070.74,
+	"grossPrice": 9259.55,
+	"grossSalePrice": 2919.03,
+	"quantity": 9259,
+	"stockId": "stockId 69",
+	"CategoryID": 8644,
+	"__metadata": {
+		"uri": "products(6070)",
+		"type": "PROJECT.product"
+	},
+	"category": {
+		"__deferred": {
+			"uri": "products(6070)/category"
+		}
+	},
+	"orderProducts": {
+		"__deferred": {
+			"uri": "products(6070)/orderProducts"
+		}
+	}
+}, {
+	"id": 144,
+	"name": "name 70",
+	"description": "description 70",
+	"netPrice": 144.6,
+	"grossPrice": 6073.23,
+	"grossSalePrice": 9360.34,
+	"quantity": 6073,
+	"stockId": "stockId 70",
+	"CategoryID": 3876,
+	"__metadata": {
+		"uri": "products(144)",
+		"type": "PROJECT.product"
+	},
+	"category": {
+		"__deferred": {
+			"uri": "products(144)/category"
+		}
+	},
+	"orderProducts": {
+		"__deferred": {
+			"uri": "products(144)/orderProducts"
+		}
+	}
+}, {
+	"id": 4943,
+	"name": "name 71",
+	"description": "description 71",
+	"netPrice": 4943.12,
+	"grossPrice": 9049.51,
+	"grossSalePrice": 4552.16,
+	"quantity": 9049,
+	"stockId": "stockId 71",
+	"CategoryID": 4644,
+	"__metadata": {
+		"uri": "products(4943)",
+		"type": "PROJECT.product"
+	},
+	"category": {
+		"__deferred": {
+			"uri": "products(4943)/category"
+		}
+	},
+	"orderProducts": {
+		"__deferred": {
+			"uri": "products(4943)/orderProducts"
+		}
+	}
+}, {
+	"id": 6277,
+	"name": "name 72",
+	"description": "description 72",
+	"netPrice": 6277.6,
+	"grossPrice": 4501.5,
+	"grossSalePrice": 2981.98,
+	"quantity": 4501,
+	"stockId": "stockId 72",
+	"CategoryID": 5241,
+	"__metadata": {
+		"uri": "products(6277)",
+		"type": "PROJECT.product"
+	},
+	"category": {
+		"__deferred": {
+			"uri": "products(6277)/category"
+		}
+	},
+	"orderProducts": {
+		"__deferred": {
+			"uri": "products(6277)/orderProducts"
+		}
+	}
+}, {
+	"id": 5639,
+	"name": "name 73",
+	"description": "description 73",
+	"netPrice": 5639.91,
+	"grossPrice": 49.81,
+	"grossSalePrice": 8629.47,
+	"quantity": 49,
+	"stockId": "stockId 73",
+	"CategoryID": 530,
+	"__metadata": {
+		"uri": "products(5639)",
+		"type": "PROJECT.product"
+	},
+	"category": {
+		"__deferred": {
+			"uri": "products(5639)/category"
+		}
+	},
+	"orderProducts": {
+		"__deferred": {
+			"uri": "products(5639)/orderProducts"
+		}
+	}
+}, {
+	"id": 1383,
+	"name": "name 74",
+	"description": "description 74",
+	"netPrice": 1383.52,
+	"grossPrice": 5026.25,
+	"grossSalePrice": 4489.92,
+	"quantity": 5026,
+	"stockId": "stockId 74",
+	"CategoryID": 597,
+	"__metadata": {
+		"uri": "products(1383)",
+		"type": "PROJECT.product"
+	},
+	"category": {
+		"__deferred": {
+			"uri": "products(1383)/category"
+		}
+	},
+	"orderProducts": {
+		"__deferred": {
+			"uri": "products(1383)/orderProducts"
+		}
+	}
+}, {
+	"id": 7837,
+	"name": "name 75",
+	"description": "description 75",
+	"netPrice": 7837.73,
+	"grossPrice": 286.34,
+	"grossSalePrice": 8055.7,
+	"quantity": 286,
+	"stockId": "stockId 75",
+	"CategoryID": 735,
+	"__metadata": {
+		"uri": "products(7837)",
+		"type": "PROJECT.product"
+	},
+	"category": {
+		"__deferred": {
+			"uri": "products(7837)/category"
+		}
+	},
+	"orderProducts": {
+		"__deferred": {
+			"uri": "products(7837)/orderProducts"
+		}
+	}
+}, {
+	"id": 1312,
+	"name": "name 76",
+	"description": "description 76",
+	"netPrice": 1312.4,
+	"grossPrice": 9383.33,
+	"grossSalePrice": 2856.71,
+	"quantity": 9383,
+	"stockId": "stockId 76",
+	"CategoryID": 1369,
+	"__metadata": {
+		"uri": "products(1312)",
+		"type": "PROJECT.product"
+	},
+	"category": {
+		"__deferred": {
+			"uri": "products(1312)/category"
+		}
+	},
+	"orderProducts": {
+		"__deferred": {
+			"uri": "products(1312)/orderProducts"
+		}
+	}
+}, {
+	"id": 6249,
+	"name": "name 77",
+	"description": "description 77",
+	"netPrice": 6249.78,
+	"grossPrice": 7435.09,
+	"grossSalePrice": 3156.9,
+	"quantity": 7435,
+	"stockId": "stockId 77",
+	"CategoryID": 7452,
+	"__metadata": {
+		"uri": "products(6249)",
+		"type": "PROJECT.product"
+	},
+	"category": {
+		"__deferred": {
+			"uri": "products(6249)/category"
+		}
+	},
+	"orderProducts": {
+		"__deferred": {
+			"uri": "products(6249)/orderProducts"
+		}
+	}
+}, {
+	"id": 3174,
+	"name": "name 78",
+	"description": "description 78",
+	"netPrice": 3174.75,
+	"grossPrice": 5740.22,
+	"grossSalePrice": 1253.96,
+	"quantity": 5740,
+	"stockId": "stockId 78",
+	"CategoryID": 830,
+	"__metadata": {
+		"uri": "products(3174)",
+		"type": "PROJECT.product"
+	},
+	"category": {
+		"__deferred": {
+			"uri": "products(3174)/category"
+		}
+	},
+	"orderProducts": {
+		"__deferred": {
+			"uri": "products(3174)/orderProducts"
+		}
+	}
+}, {
+	"id": 8969,
+	"name": "name 79",
+	"description": "description 79",
+	"netPrice": 8969.36,
+	"grossPrice": 6536.52,
+	"grossSalePrice": 4477.97,
+	"quantity": 6536,
+	"stockId": "stockId 79",
+	"CategoryID": 9458,
+	"__metadata": {
+		"uri": "products(8969)",
+		"type": "PROJECT.product"
+	},
+	"category": {
+		"__deferred": {
+			"uri": "products(8969)/category"
+		}
+	},
+	"orderProducts": {
+		"__deferred": {
+			"uri": "products(8969)/orderProducts"
+		}
+	}
+}, {
+	"id": 7872,
+	"name": "name 80",
+	"description": "description 80",
+	"netPrice": 7872.5,
+	"grossPrice": 7426.92,
+	"grossSalePrice": 1390.16,
+	"quantity": 7426,
+	"stockId": "stockId 80",
+	"CategoryID": 361,
+	"__metadata": {
+		"uri": "products(7872)",
+		"type": "PROJECT.product"
+	},
+	"category": {
+		"__deferred": {
+			"uri": "products(7872)/category"
+		}
+	},
+	"orderProducts": {
+		"__deferred": {
+			"uri": "products(7872)/orderProducts"
+		}
+	}
+}, {
+	"id": 9218,
+	"name": "name 81",
+	"description": "description 81",
+	"netPrice": 9218.64,
+	"grossPrice": 3395.67,
+	"grossSalePrice": 4953.32,
+	"quantity": 3395,
+	"stockId": "stockId 81",
+	"CategoryID": 7670,
+	"__metadata": {
+		"uri": "products(9218)",
+		"type": "PROJECT.product"
+	},
+	"category": {
+		"__deferred": {
+			"uri": "products(9218)/category"
+		}
+	},
+	"orderProducts": {
+		"__deferred": {
+			"uri": "products(9218)/orderProducts"
+		}
+	}
+}, {
+	"id": 3320,
+	"name": "name 82",
+	"description": "description 82",
+	"netPrice": 3320.2,
+	"grossPrice": 1866.38,
+	"grossSalePrice": 9941.99,
+	"quantity": 1866,
+	"stockId": "stockId 82",
+	"CategoryID": 1526,
+	"__metadata": {
+		"uri": "products(3320)",
+		"type": "PROJECT.product"
+	},
+	"category": {
+		"__deferred": {
+			"uri": "products(3320)/category"
+		}
+	},
+	"orderProducts": {
+		"__deferred": {
+			"uri": "products(3320)/orderProducts"
+		}
+	}
+}, {
+	"id": 317,
+	"name": "name 83",
+	"description": "description 83",
+	"netPrice": 317.2,
+	"grossPrice": 1215.85,
+	"grossSalePrice": 9601.63,
+	"quantity": 1215,
+	"stockId": "stockId 83",
+	"CategoryID": 1407,
+	"__metadata": {
+		"uri": "products(317)",
+		"type": "PROJECT.product"
+	},
+	"category": {
+		"__deferred": {
+			"uri": "products(317)/category"
+		}
+	},
+	"orderProducts": {
+		"__deferred": {
+			"uri": "products(317)/orderProducts"
+		}
+	}
+}, {
+	"id": 2672,
+	"name": "name 84",
+	"description": "description 84",
+	"netPrice": 2672.17,
+	"grossPrice": 6094.49,
+	"grossSalePrice": 6820.17,
+	"quantity": 6094,
+	"stockId": "stockId 84",
+	"CategoryID": 9453,
+	"__metadata": {
+		"uri": "products(2672)",
+		"type": "PROJECT.product"
+	},
+	"category": {
+		"__deferred": {
+			"uri": "products(2672)/category"
+		}
+	},
+	"orderProducts": {
+		"__deferred": {
+			"uri": "products(2672)/orderProducts"
+		}
+	}
+}, {
+	"id": 9997,
+	"name": "name 85",
+	"description": "description 85",
+	"netPrice": 9997.33,
+	"grossPrice": 5046.06,
+	"grossSalePrice": 6386.98,
+	"quantity": 5046,
+	"stockId": "stockId 85",
+	"CategoryID": 3215,
+	"__metadata": {
+		"uri": "products(9997)",
+		"type": "PROJECT.product"
+	},
+	"category": {
+		"__deferred": {
+			"uri": "products(9997)/category"
+		}
+	},
+	"orderProducts": {
+		"__deferred": {
+			"uri": "products(9997)/orderProducts"
+		}
+	}
+}, {
+	"id": 1781,
+	"name": "name 86",
+	"description": "description 86",
+	"netPrice": 1781.53,
+	"grossPrice": 523.81,
+	"grossSalePrice": 2326.74,
+	"quantity": 523,
+	"stockId": "stockId 86",
+	"CategoryID": 488,
+	"__metadata": {
+		"uri": "products(1781)",
+		"type": "PROJECT.product"
+	},
+	"category": {
+		"__deferred": {
+			"uri": "products(1781)/category"
+		}
+	},
+	"orderProducts": {
+		"__deferred": {
+			"uri": "products(1781)/orderProducts"
+		}
+	}
+}, {
+	"id": 5539,
+	"name": "name 87",
+	"description": "description 87",
+	"netPrice": 5539.75,
+	"grossPrice": 8391.89,
+	"grossSalePrice": 8793.36,
+	"quantity": 8391,
+	"stockId": "stockId 87",
+	"CategoryID": 437,
+	"__metadata": {
+		"uri": "products(5539)",
+		"type": "PROJECT.product"
+	},
+	"category": {
+		"__deferred": {
+			"uri": "products(5539)/category"
+		}
+	},
+	"orderProducts": {
+		"__deferred": {
+			"uri": "products(5539)/orderProducts"
+		}
+	}
+}, {
+	"id": 3032,
+	"name": "name 88",
+	"description": "description 88",
+	"netPrice": 3032.36,
+	"grossPrice": 1419.83,
+	"grossSalePrice": 162.96,
+	"quantity": 1419,
+	"stockId": "stockId 88",
+	"CategoryID": 2347,
+	"__metadata": {
+		"uri": "products(3032)",
+		"type": "PROJECT.product"
+	},
+	"category": {
+		"__deferred": {
+			"uri": "products(3032)/category"
+		}
+	},
+	"orderProducts": {
+		"__deferred": {
+			"uri": "products(3032)/orderProducts"
+		}
+	}
+}, {
+	"id": 9747,
+	"name": "name 89",
+	"description": "description 89",
+	"netPrice": 9747.9,
+	"grossPrice": 3410.1,
+	"grossSalePrice": 1817.03,
+	"quantity": 3410,
+	"stockId": "stockId 89",
+	"CategoryID": 8583,
+	"__metadata": {
+		"uri": "products(9747)",
+		"type": "PROJECT.product"
+	},
+	"category": {
+		"__deferred": {
+			"uri": "products(9747)/category"
+		}
+	},
+	"orderProducts": {
+		"__deferred": {
+			"uri": "products(9747)/orderProducts"
+		}
+	}
+}, {
+	"id": 8219,
+	"name": "name 90",
+	"description": "description 90",
+	"netPrice": 8219.59,
+	"grossPrice": 4262.93,
+	"grossSalePrice": 9933.87,
+	"quantity": 4262,
+	"stockId": "stockId 90",
+	"CategoryID": 5338,
+	"__metadata": {
+		"uri": "products(8219)",
+		"type": "PROJECT.product"
+	},
+	"category": {
+		"__deferred": {
+			"uri": "products(8219)/category"
+		}
+	},
+	"orderProducts": {
+		"__deferred": {
+			"uri": "products(8219)/orderProducts"
+		}
+	}
+}, {
+	"id": 5818,
+	"name": "name 91",
+	"description": "description 91",
+	"netPrice": 5818.79,
+	"grossPrice": 2480.05,
+	"grossSalePrice": 4877.83,
+	"quantity": 2480,
+	"stockId": "stockId 91",
+	"CategoryID": 7559,
+	"__metadata": {
+		"uri": "products(5818)",
+		"type": "PROJECT.product"
+	},
+	"category": {
+		"__deferred": {
+			"uri": "products(5818)/category"
+		}
+	},
+	"orderProducts": {
+		"__deferred": {
+			"uri": "products(5818)/orderProducts"
+		}
+	}
+}, {
+	"id": 9420,
+	"name": "name 92",
+	"description": "description 92",
+	"netPrice": 9420.29,
+	"grossPrice": 2236.63,
+	"grossSalePrice": 2104.68,
+	"quantity": 2236,
+	"stockId": "stockId 92",
+	"CategoryID": 5074,
+	"__metadata": {
+		"uri": "products(9420)",
+		"type": "PROJECT.product"
+	},
+	"category": {
+		"__deferred": {
+			"uri": "products(9420)/category"
+		}
+	},
+	"orderProducts": {
+		"__deferred": {
+			"uri": "products(9420)/orderProducts"
+		}
+	}
+}, {
+	"id": 7487,
+	"name": "name 93",
+	"description": "description 93",
+	"netPrice": 7487.61,
+	"grossPrice": 6902.41,
+	"grossSalePrice": 6534.69,
+	"quantity": 6902,
+	"stockId": "stockId 93",
+	"CategoryID": 4226,
+	"__metadata": {
+		"uri": "products(7487)",
+		"type": "PROJECT.product"
+	},
+	"category": {
+		"__deferred": {
+			"uri": "products(7487)/category"
+		}
+	},
+	"orderProducts": {
+		"__deferred": {
+			"uri": "products(7487)/orderProducts"
+		}
+	}
+}, {
+	"id": 1217,
+	"name": "name 94",
+	"description": "description 94",
+	"netPrice": 1217.45,
+	"grossPrice": 4860.8,
+	"grossSalePrice": 9301.94,
+	"quantity": 4860,
+	"stockId": "stockId 94",
+	"CategoryID": 7346,
+	"__metadata": {
+		"uri": "products(1217)",
+		"type": "PROJECT.product"
+	},
+	"category": {
+		"__deferred": {
+			"uri": "products(1217)/category"
+		}
+	},
+	"orderProducts": {
+		"__deferred": {
+			"uri": "products(1217)/orderProducts"
+		}
+	}
+}, {
+	"id": 5046,
+	"name": "name 95",
+	"description": "description 95",
+	"netPrice": 5046.91,
+	"grossPrice": 5312.87,
+	"grossSalePrice": 8713.96,
+	"quantity": 5312,
+	"stockId": "stockId 95",
+	"CategoryID": 9914,
+	"__metadata": {
+		"uri": "products(5046)",
+		"type": "PROJECT.product"
+	},
+	"category": {
+		"__deferred": {
+			"uri": "products(5046)/category"
+		}
+	},
+	"orderProducts": {
+		"__deferred": {
+			"uri": "products(5046)/orderProducts"
+		}
+	}
+}, {
+	"id": 3038,
+	"name": "name 96",
+	"description": "description 96",
+	"netPrice": 3038.3,
+	"grossPrice": 1567.11,
+	"grossSalePrice": 6122.49,
+	"quantity": 1567,
+	"stockId": "stockId 96",
+	"CategoryID": 8316,
+	"__metadata": {
+		"uri": "products(3038)",
+		"type": "PROJECT.product"
+	},
+	"category": {
+		"__deferred": {
+			"uri": "products(3038)/category"
+		}
+	},
+	"orderProducts": {
+		"__deferred": {
+			"uri": "products(3038)/orderProducts"
+		}
+	}
+}, {
+	"id": 1143,
+	"name": "name 97",
+	"description": "description 97",
+	"netPrice": 1143.27,
+	"grossPrice": 7911.36,
+	"grossSalePrice": 9015.21,
+	"quantity": 7911,
+	"stockId": "stockId 97",
+	"CategoryID": 9923,
+	"__metadata": {
+		"uri": "products(1143)",
+		"type": "PROJECT.product"
+	},
+	"category": {
+		"__deferred": {
+			"uri": "products(1143)/category"
+		}
+	},
+	"orderProducts": {
+		"__deferred": {
+			"uri": "products(1143)/orderProducts"
+		}
+	}
+}, {
+	"id": 7307,
+	"name": "name 98",
+	"description": "description 98",
+	"netPrice": 7307.63,
+	"grossPrice": 3108.41,
+	"grossSalePrice": 9579.5,
+	"quantity": 3108,
+	"stockId": "stockId 98",
+	"CategoryID": 6666,
+	"__metadata": {
+		"uri": "products(7307)",
+		"type": "PROJECT.product"
+	},
+	"category": {
+		"__deferred": {
+			"uri": "products(7307)/category"
+		}
+	},
+	"orderProducts": {
+		"__deferred": {
+			"uri": "products(7307)/orderProducts"
+		}
+	}
+}, {
+	"id": 5675,
+	"name": "name 99",
+	"description": "description 99",
+	"netPrice": 5675.52,
+	"grossPrice": 8935.36,
+	"grossSalePrice": 8827.43,
+	"quantity": 8935,
+	"stockId": "stockId 99",
+	"CategoryID": 3064,
+	"__metadata": {
+		"uri": "products(5675)",
+		"type": "PROJECT.product"
+	},
+	"category": {
+		"__deferred": {
+			"uri": "products(5675)/category"
+		}
+	},
+	"orderProducts": {
+		"__deferred": {
+			"uri": "products(5675)/orderProducts"
+		}
+	}
+}, {
+	"id": 8789,
+	"name": "name 100",
+	"description": "description 100",
+	"netPrice": 8789.28,
+	"grossPrice": 5777.49,
+	"grossSalePrice": 6261.12,
+	"quantity": 5777,
+	"stockId": "stockId 100",
+	"CategoryID": 3857,
+	"__metadata": {
+		"uri": "products(8789)",
+		"type": "PROJECT.product"
+	},
+	"category": {
+		"__deferred": {
+			"uri": "products(8789)/category"
+		}
+	},
+	"orderProducts": {
+		"__deferred": {
+			"uri": "products(8789)/orderProducts"
+		}
+	}
+}]

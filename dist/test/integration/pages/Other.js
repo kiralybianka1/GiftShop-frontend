@@ -1,0 +1,1 @@
+sap.ui.define(["sap/ui/test/Opa5"],function(e){"use strict";var t="Other";e.createPageObjects({onTheOtherPage:{actions:{},assertions:{iShouldSeeTheApp:function(){return this.waitFor({viewName:t,success:function(){e.assert.ok(true,"Az egyéb oldal megjelenik.")},errorMessage:"Az egyéb oldal nem található."})}}}})});

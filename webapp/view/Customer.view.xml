@@ -1,0 +1,127 @@
+<mvc:View controllerName="Project.Project.controller.Customer" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc"
+	displayBlock="true" xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:form="sap.ui.layout.form">
+	<Page id="idCustomerPage" title="{/firstName} {/lastName}" showNavButton="true" navButtonPress="onNavBack">
+		<headerContent>
+			<Button icon="sap-icon://email" id="emailButton" text="{i18n>SendEmail}" type="Transparent" press="onEmailButtonPress"/>
+			<Button icon="sap-icon://delete" id="deleteButton" text="{i18n>Delete}" type="Reject" press="onDeleteButtonPress"/>
+		</headerContent>
+		<content>
+			<IconTabBar id="idIconTabBarNoIcons" class="sapUiResponsiveContentPadding" stretchContentHeight="true" select="handleIconTabBarSelect">
+				<items>
+					<IconTabFilter id="idCustomerInfoTab" text="{i18n>CustomerI}" key="info">
+						<ScrollContainer height="100%" width="100%" horizontal="false" vertical="true">
+							<VBox class="sapUiSmallMargin">
+								<form:SimpleForm id="info1" layout="ResponsiveGridLayout" title="{i18n>CustomerInfo}" labelSpanXL="3" labelSpanL="3" labelSpanM="3"
+									labelSpanS="12" adjustLabelSpan="false" emptySpanXL="4" emptySpanL="4" emptySpanM="4" emptySpanS="0" columnsXL="1" columnsL="1" columnsM="1"
+									singleContainerFullSize="false">
+									<form:content>
+										<Label text="{i18n>FirstName}"/>
+										<Text text="{/firstName}"/>
+										<Label text="{i18n>LastName}"/>
+										<Text text="{/lastName}"/>
+										<Label text="{i18n>Address}"/>
+										<Text
+											text="{/address/country}, {/address/zipCode} {/address/city}, {/address/street} {/address/houseNumber}/{/address/floor}/{/address/door}, {/address/doorbell}"/>
+										<Label text="{i18n>Phone}"/>
+										<Text text="{/phone}"/>
+										<Label text="{i18n>Email}"/>
+										<Text text="{/email}"/>
+									</form:content>
+								</form:SimpleForm>
+							</VBox>
+							<VBox class="sapUiSmallMargin" width="100%">
+								<form:SimpleForm id="info2" layout="ResponsiveGridLayout" title="{i18n>CustomerInfo2}" labelSpanXL="3" labelSpanL="3" labelSpanM="3"
+									labelSpanS="12" adjustLabelSpan="false" emptySpanXL="4" emptySpanL="4" emptySpanM="4" emptySpanS="0" columnsXL="1" columnsL="1" columnsM="1"
+									singleContainerFullSize="false">
+									<form:content>
+										<Label text="{i18n>Type}"/>
+										<Text text="{/customerType}"/>
+										<Label text="{i18n>BankAccount}"/>
+										<Text text="{/accountNumber}"/>
+									</form:content>
+								</form:SimpleForm>
+							</VBox>
+						</ScrollContainer>
+					</IconTabFilter>
+					<IconTabFilter id="idCustomerModifyTab" text="{i18n>CustomerModify}" key="modify">
+						<ScrollContainer height="100%" width="100%" horizontal="false" vertical="true">
+							<VBox class="sapUiSmallMargin">
+								<form:SimpleForm id="info1M" layout="ResponsiveGridLayout" title="{i18n>CustomerInfo}" labelSpanXL="3" labelSpanL="3" labelSpanM="3"
+									labelSpanS="12" adjustLabelSpan="false" emptySpanXL="4" emptySpanL="4" emptySpanM="4" emptySpanS="0" columnsXL="1" columnsL="1" columnsM="1"
+									singleContainerFullSize="false">
+									<MessageStrip class="sapUiSmallMarginBottom" text="{i18n>CustomerInfoModifyText}" showIcon="true"/>
+									<form:content>
+										<Label text="{i18n>FirstName}"/>
+										<Input id="firstName" value="{/firstName}" required="true" type="Text"/>
+										<Label text="{i18n>LastName}"/>
+										<Input id="lastName" value="{/lastName}" required="true" type="Text"/>
+										<Label text="{i18n>Address} {i18n>Address1}"/>
+										<Input id="country" value="{/address/country}" required="true" type="Text"/>
+										<Input id="zip" value="{/address/zipCode}" required="true" type="Number"/>
+										<Input id="city" value="{/address/city}" required="true" type="Text"/>
+										<Label text="{i18n>Address2}"/>
+										<Input id="street" value="{/address/street}" required="true" type="Text"/>
+										<Input id="houseNumber" value="{/address/houseNumber}" required="true" type="Text"/>
+										<Label text="{i18n>Address3}"/>
+										<Input id="floor" value="{/address/floor}" type="Number"/>
+										<Input id="door" value="{/address/door}" type="Number"/>
+										<Input id="doorbell" value="{/address/doorbell}" type="Number"/>
+										<Label text="{i18n>Phone}"/>
+										<Input id="phone" value="{/phone}" required="true" type="Tel"/>
+										<Label text="{i18n>Email}"/>
+										<Input id="email" value="{/email}" required="true" type="Email"/>
+									</form:content>
+								</form:SimpleForm>
+							</VBox>
+							<VBox class="sapUiSmallMargin" width="100%">
+								<form:SimpleForm id="info2M" layout="ResponsiveGridLayout" title="{i18n>CustomerInfo2}" labelSpanXL="3" labelSpanL="3" labelSpanM="3"
+									labelSpanS="12" adjustLabelSpan="false" emptySpanXL="4" emptySpanL="4" emptySpanM="4" emptySpanS="0" columnsXL="1" columnsL="1" columnsM="1"
+									singleContainerFullSize="false">
+									<MessageStrip class="sapUiSmallMarginBottom" text="{i18n>CustomerInfo2ModifyText}" showIcon="true"/>
+									<form:content>
+										<Label text="{i18n>Type}"/>
+										<ComboBox id="type" selectedKey="{/customerType}" required="true">
+											<items>
+												<core:Item text="{i18n>PrivatePerson}" key="{i18n>PrivatePerson}"/>
+												<core:Item text="{i18n>Company}" key="{i18n>Company}"/>
+												<core:Item text="{i18n>Contractor}" key="{i18n>Contractor}"/>
+											</items>
+										</ComboBox>
+										<Label text="{i18n>BankAccount}"/>
+										<Input id="bankAccount" value="{/accountNumber}" required="true"/>
+									</form:content>
+								</form:SimpleForm>
+							</VBox>
+						</ScrollContainer>
+					</IconTabFilter>
+					<IconTabFilter id="idCustomerOrdersTab" text="{i18n>CustomersOrders}" key="orders">
+						<List id="customersOrderList" items="{ path:'/', sorter: { path: 'id', descending: false } }" growing="true" growingThreshold="5">
+							<headerToolbar>
+								<Toolbar>
+									<ToolbarSpacer/>
+									<Button tooltip="{i18n>Settings}" icon="sap-icon://settings" press="onSettingsButtonPress"/>
+								</Toolbar>
+							</headerToolbar>
+							<items>
+								<NotificationListItem authorPicture="sap-icon://activity-items" title="{i18n>Order}(#{id})" datetime="{orderDate}"
+									press="onManagementListItemPress" priority="{path: 'fulfillDate', formatter: 'Project.Project.model.fulfillmentFormatter.fulfillState'}"
+									showCloseButton="false">
+									<buttons>
+										<Button text="{i18n>Delete}" type="Reject" press="onManagementDeleteButtonPress" icon="sap-icon://sys-cancel"/>
+									</buttons>
+								</NotificationListItem>
+							</items>
+						</List>
+					</IconTabFilter>
+				</items>
+			</IconTabBar>
+		</content>
+		<footer >
+			<Toolbar id="footer" visible="false">
+				<ToolbarSpacer/>
+				<Button id="saveButton" text="{i18n>Save}" type="Accept" icon="sap-icon://save" press="onSaveButtonPress"/>
+				<Button id="cancelButton" text="{i18n>Cancel}" type="Reject" icon="sap-icon://sys-cancel" press="onCancelButtonPress"/>
+			</Toolbar>
+		</footer>
+	</Page>
+</mvc:View>

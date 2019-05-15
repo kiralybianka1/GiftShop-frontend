@@ -1,0 +1,1301 @@
+[{
+	"id": 9,
+	"name": "name 1",
+	"taxRate": 9.85,
+	"__metadata": {
+		"uri": "categories(9)",
+		"type": "PROJECT.category"
+	},
+	"products": {
+		"__deferred": {
+			"uri": "categories(9)/products"
+		}
+	}
+}, {
+	"id": 416,
+	"name": "name 2",
+	"taxRate": 416.31,
+	"__metadata": {
+		"uri": "categories(416)",
+		"type": "PROJECT.category"
+	},
+	"products": {
+		"__deferred": {
+			"uri": "categories(416)/products"
+		}
+	}
+}, {
+	"id": 6671,
+	"name": "name 3",
+	"taxRate": 6671.92,
+	"__metadata": {
+		"uri": "categories(6671)",
+		"type": "PROJECT.category"
+	},
+	"products": {
+		"__deferred": {
+			"uri": "categories(6671)/products"
+		}
+	}
+}, {
+	"id": 2613,
+	"name": "name 4",
+	"taxRate": 2613.6,
+	"__metadata": {
+		"uri": "categories(2613)",
+		"type": "PROJECT.category"
+	},
+	"products": {
+		"__deferred": {
+			"uri": "categories(2613)/products"
+		}
+	}
+}, {
+	"id": 7960,
+	"name": "name 5",
+	"taxRate": 7960.43,
+	"__metadata": {
+		"uri": "categories(7960)",
+		"type": "PROJECT.category"
+	},
+	"products": {
+		"__deferred": {
+			"uri": "categories(7960)/products"
+		}
+	}
+}, {
+	"id": 2584,
+	"name": "name 6",
+	"taxRate": 2584.86,
+	"__metadata": {
+		"uri": "categories(2584)",
+		"type": "PROJECT.category"
+	},
+	"products": {
+		"__deferred": {
+			"uri": "categories(2584)/products"
+		}
+	}
+}, {
+	"id": 5101,
+	"name": "name 7",
+	"taxRate": 5101.49,
+	"__metadata": {
+		"uri": "categories(5101)",
+		"type": "PROJECT.category"
+	},
+	"products": {
+		"__deferred": {
+			"uri": "categories(5101)/products"
+		}
+	}
+}, {
+	"id": 7638,
+	"name": "name 8",
+	"taxRate": 7638.68,
+	"__metadata": {
+		"uri": "categories(7638)",
+		"type": "PROJECT.category"
+	},
+	"products": {
+		"__deferred": {
+			"uri": "categories(7638)/products"
+		}
+	}
+}, {
+	"id": 100,
+	"name": "name 9",
+	"taxRate": 100.85,
+	"__metadata": {
+		"uri": "categories(100)",
+		"type": "PROJECT.category"
+	},
+	"products": {
+		"__deferred": {
+			"uri": "categories(100)/products"
+		}
+	}
+}, {
+	"id": 8688,
+	"name": "name 10",
+	"taxRate": 8688.55,
+	"__metadata": {
+		"uri": "categories(8688)",
+		"type": "PROJECT.category"
+	},
+	"products": {
+		"__deferred": {
+			"uri": "categories(8688)/products"
+		}
+	}
+}, {
+	"id": 9523,
+	"name": "name 11",
+	"taxRate": 9523.1,
+	"__metadata": {
+		"uri": "categories(9523)",
+		"type": "PROJECT.category"
+	},
+	"products": {
+		"__deferred": {
+			"uri": "categories(9523)/products"
+		}
+	}
+}, {
+	"id": 8078,
+	"name": "name 12",
+	"taxRate": 8078.05,
+	"__metadata": {
+		"uri": "categories(8078)",
+		"type": "PROJECT.category"
+	},
+	"products": {
+		"__deferred": {
+			"uri": "categories(8078)/products"
+		}
+	}
+}, {
+	"id": 3324,
+	"name": "name 13",
+	"taxRate": 3324.62,
+	"__metadata": {
+		"uri": "categories(3324)",
+		"type": "PROJECT.category"
+	},
+	"products": {
+		"__deferred": {
+			"uri": "categories(3324)/products"
+		}
+	}
+}, {
+	"id": 591,
+	"name": "name 14",
+	"taxRate": 591.67,
+	"__metadata": {
+		"uri": "categories(591)",
+		"type": "PROJECT.category"
+	},
+	"products": {
+		"__deferred": {
+			"uri": "categories(591)/products"
+		}
+	}
+}, {
+	"id": 4853,
+	"name": "name 15",
+	"taxRate": 4853.71,
+	"__metadata": {
+		"uri": "categories(4853)",
+		"type": "PROJECT.category"
+	},
+	"products": {
+		"__deferred": {
+			"uri": "categories(4853)/products"
+		}
+	}
+}, {
+	"id": 4053,
+	"name": "name 16",
+	"taxRate": 4053.58,
+	"__metadata": {
+		"uri": "categories(4053)",
+		"type": "PROJECT.category"
+	},
+	"products": {
+		"__deferred": {
+			"uri": "categories(4053)/products"
+		}
+	}
+}, {
+	"id": 7495,
+	"name": "name 17",
+	"taxRate": 7495.46,
+	"__metadata": {
+		"uri": "categories(7495)",
+		"type": "PROJECT.category"
+	},
+	"products": {
+		"__deferred": {
+			"uri": "categories(7495)/products"
+		}
+	}
+}, {
+	"id": 7826,
+	"name": "name 18",
+	"taxRate": 7826.71,
+	"__metadata": {
+		"uri": "categories(7826)",
+		"type": "PROJECT.category"
+	},
+	"products": {
+		"__deferred": {
+			"uri": "categories(7826)/products"
+		}
+	}
+}, {
+	"id": 3812,
+	"name": "name 19",
+	"taxRate": 3812,
+	"__metadata": {
+		"uri": "categories(3812)",
+		"type": "PROJECT.category"
+	},
+	"products": {
+		"__deferred": {
+			"uri": "categories(3812)/products"
+		}
+	}
+}, {
+	"id": 6152,
+	"name": "name 20",
+	"taxRate": 6152.62,
+	"__metadata": {
+		"uri": "categories(6152)",
+		"type": "PROJECT.category"
+	},
+	"products": {
+		"__deferred": {
+			"uri": "categories(6152)/products"
+		}
+	}
+}, {
+	"id": 7116,
+	"name": "name 21",
+	"taxRate": 7116.64,
+	"__metadata": {
+		"uri": "categories(7116)",
+		"type": "PROJECT.category"
+	},
+	"products": {
+		"__deferred": {
+			"uri": "categories(7116)/products"
+		}
+	}
+}, {
+	"id": 3189,
+	"name": "name 22",
+	"taxRate": 3189.11,
+	"__metadata": {
+		"uri": "categories(3189)",
+		"type": "PROJECT.category"
+	},
+	"products": {
+		"__deferred": {
+			"uri": "categories(3189)/products"
+		}
+	}
+}, {
+	"id": 2884,
+	"name": "name 23",
+	"taxRate": 2884.41,
+	"__metadata": {
+		"uri": "categories(2884)",
+		"type": "PROJECT.category"
+	},
+	"products": {
+		"__deferred": {
+			"uri": "categories(2884)/products"
+		}
+	}
+}, {
+	"id": 6673,
+	"name": "name 24",
+	"taxRate": 6673.2,
+	"__metadata": {
+		"uri": "categories(6673)",
+		"type": "PROJECT.category"
+	},
+	"products": {
+		"__deferred": {
+			"uri": "categories(6673)/products"
+		}
+	}
+}, {
+	"id": 3050,
+	"name": "name 25",
+	"taxRate": 3050.52,
+	"__metadata": {
+		"uri": "categories(3050)",
+		"type": "PROJECT.category"
+	},
+	"products": {
+		"__deferred": {
+			"uri": "categories(3050)/products"
+		}
+	}
+}, {
+	"id": 2114,
+	"name": "name 26",
+	"taxRate": 2114.01,
+	"__metadata": {
+		"uri": "categories(2114)",
+		"type": "PROJECT.category"
+	},
+	"products": {
+		"__deferred": {
+			"uri": "categories(2114)/products"
+		}
+	}
+}, {
+	"id": 865,
+	"name": "name 27",
+	"taxRate": 865.68,
+	"__metadata": {
+		"uri": "categories(865)",
+		"type": "PROJECT.category"
+	},
+	"products": {
+		"__deferred": {
+			"uri": "categories(865)/products"
+		}
+	}
+}, {
+	"id": 7131,
+	"name": "name 28",
+	"taxRate": 7131.28,
+	"__metadata": {
+		"uri": "categories(7131)",
+		"type": "PROJECT.category"
+	},
+	"products": {
+		"__deferred": {
+			"uri": "categories(7131)/products"
+		}
+	}
+}, {
+	"id": 4669,
+	"name": "name 29",
+	"taxRate": 4669.02,
+	"__metadata": {
+		"uri": "categories(4669)",
+		"type": "PROJECT.category"
+	},
+	"products": {
+		"__deferred": {
+			"uri": "categories(4669)/products"
+		}
+	}
+}, {
+	"id": 5584,
+	"name": "name 30",
+	"taxRate": 5584.73,
+	"__metadata": {
+		"uri": "categories(5584)",
+		"type": "PROJECT.category"
+	},
+	"products": {
+		"__deferred": {
+			"uri": "categories(5584)/products"
+		}
+	}
+}, {
+	"id": 5582,
+	"name": "name 31",
+	"taxRate": 5582.16,
+	"__metadata": {
+		"uri": "categories(5582)",
+		"type": "PROJECT.category"
+	},
+	"products": {
+		"__deferred": {
+			"uri": "categories(5582)/products"
+		}
+	}
+}, {
+	"id": 9889,
+	"name": "name 32",
+	"taxRate": 9889.58,
+	"__metadata": {
+		"uri": "categories(9889)",
+		"type": "PROJECT.category"
+	},
+	"products": {
+		"__deferred": {
+			"uri": "categories(9889)/products"
+		}
+	}
+}, {
+	"id": 2209,
+	"name": "name 33",
+	"taxRate": 2209.25,
+	"__metadata": {
+		"uri": "categories(2209)",
+		"type": "PROJECT.category"
+	},
+	"products": {
+		"__deferred": {
+			"uri": "categories(2209)/products"
+		}
+	}
+}, {
+	"id": 9106,
+	"name": "name 34",
+	"taxRate": 9106.05,
+	"__metadata": {
+		"uri": "categories(9106)",
+		"type": "PROJECT.category"
+	},
+	"products": {
+		"__deferred": {
+			"uri": "categories(9106)/products"
+		}
+	}
+}, {
+	"id": 5632,
+	"name": "name 35",
+	"taxRate": 5632.87,
+	"__metadata": {
+		"uri": "categories(5632)",
+		"type": "PROJECT.category"
+	},
+	"products": {
+		"__deferred": {
+			"uri": "categories(5632)/products"
+		}
+	}
+}, {
+	"id": 517,
+	"name": "name 36",
+	"taxRate": 517.85,
+	"__metadata": {
+		"uri": "categories(517)",
+		"type": "PROJECT.category"
+	},
+	"products": {
+		"__deferred": {
+			"uri": "categories(517)/products"
+		}
+	}
+}, {
+	"id": 5272,
+	"name": "name 37",
+	"taxRate": 5272.55,
+	"__metadata": {
+		"uri": "categories(5272)",
+		"type": "PROJECT.category"
+	},
+	"products": {
+		"__deferred": {
+			"uri": "categories(5272)/products"
+		}
+	}
+}, {
+	"id": 6084,
+	"name": "name 38",
+	"taxRate": 6084.72,
+	"__metadata": {
+		"uri": "categories(6084)",
+		"type": "PROJECT.category"
+	},
+	"products": {
+		"__deferred": {
+			"uri": "categories(6084)/products"
+		}
+	}
+}, {
+	"id": 3899,
+	"name": "name 39",
+	"taxRate": 3899.73,
+	"__metadata": {
+		"uri": "categories(3899)",
+		"type": "PROJECT.category"
+	},
+	"products": {
+		"__deferred": {
+			"uri": "categories(3899)/products"
+		}
+	}
+}, {
+	"id": 539,
+	"name": "name 40",
+	"taxRate": 539.99,
+	"__metadata": {
+		"uri": "categories(539)",
+		"type": "PROJECT.category"
+	},
+	"products": {
+		"__deferred": {
+			"uri": "categories(539)/products"
+		}
+	}
+}, {
+	"id": 6592,
+	"name": "name 41",
+	"taxRate": 6592.09,
+	"__metadata": {
+		"uri": "categories(6592)",
+		"type": "PROJECT.category"
+	},
+	"products": {
+		"__deferred": {
+			"uri": "categories(6592)/products"
+		}
+	}
+}, {
+	"id": 3731,
+	"name": "name 42",
+	"taxRate": 3731.02,
+	"__metadata": {
+		"uri": "categories(3731)",
+		"type": "PROJECT.category"
+	},
+	"products": {
+		"__deferred": {
+			"uri": "categories(3731)/products"
+		}
+	}
+}, {
+	"id": 9240,
+	"name": "name 43",
+	"taxRate": 9240,
+	"__metadata": {
+		"uri": "categories(9240)",
+		"type": "PROJECT.category"
+	},
+	"products": {
+		"__deferred": {
+			"uri": "categories(9240)/products"
+		}
+	}
+}, {
+	"id": 7680,
+	"name": "name 44",
+	"taxRate": 7680,
+	"__metadata": {
+		"uri": "categories(7680)",
+		"type": "PROJECT.category"
+	},
+	"products": {
+		"__deferred": {
+			"uri": "categories(7680)/products"
+		}
+	}
+}, {
+	"id": 5575,
+	"name": "name 45",
+	"taxRate": 5575.25,
+	"__metadata": {
+		"uri": "categories(5575)",
+		"type": "PROJECT.category"
+	},
+	"products": {
+		"__deferred": {
+			"uri": "categories(5575)/products"
+		}
+	}
+}, {
+	"id": 4212,
+	"name": "name 46",
+	"taxRate": 4212.82,
+	"__metadata": {
+		"uri": "categories(4212)",
+		"type": "PROJECT.category"
+	},
+	"products": {
+		"__deferred": {
+			"uri": "categories(4212)/products"
+		}
+	}
+}, {
+	"id": 2621,
+	"name": "name 47",
+	"taxRate": 2621.15,
+	"__metadata": {
+		"uri": "categories(2621)",
+		"type": "PROJECT.category"
+	},
+	"products": {
+		"__deferred": {
+			"uri": "categories(2621)/products"
+		}
+	}
+}, {
+	"id": 4078,
+	"name": "name 48",
+	"taxRate": 4078.77,
+	"__metadata": {
+		"uri": "categories(4078)",
+		"type": "PROJECT.category"
+	},
+	"products": {
+		"__deferred": {
+			"uri": "categories(4078)/products"
+		}
+	}
+}, {
+	"id": 9244,
+	"name": "name 49",
+	"taxRate": 9244.63,
+	"__metadata": {
+		"uri": "categories(9244)",
+		"type": "PROJECT.category"
+	},
+	"products": {
+		"__deferred": {
+			"uri": "categories(9244)/products"
+		}
+	}
+}, {
+	"id": 6336,
+	"name": "name 50",
+	"taxRate": 6336.84,
+	"__metadata": {
+		"uri": "categories(6336)",
+		"type": "PROJECT.category"
+	},
+	"products": {
+		"__deferred": {
+			"uri": "categories(6336)/products"
+		}
+	}
+}, {
+	"id": 7555,
+	"name": "name 51",
+	"taxRate": 7555.63,
+	"__metadata": {
+		"uri": "categories(7555)",
+		"type": "PROJECT.category"
+	},
+	"products": {
+		"__deferred": {
+			"uri": "categories(7555)/products"
+		}
+	}
+}, {
+	"id": 9799,
+	"name": "name 52",
+	"taxRate": 9799.75,
+	"__metadata": {
+		"uri": "categories(9799)",
+		"type": "PROJECT.category"
+	},
+	"products": {
+		"__deferred": {
+			"uri": "categories(9799)/products"
+		}
+	}
+}, {
+	"id": 5976,
+	"name": "name 53",
+	"taxRate": 5976.94,
+	"__metadata": {
+		"uri": "categories(5976)",
+		"type": "PROJECT.category"
+	},
+	"products": {
+		"__deferred": {
+			"uri": "categories(5976)/products"
+		}
+	}
+}, {
+	"id": 3090,
+	"name": "name 54",
+	"taxRate": 3090.44,
+	"__metadata": {
+		"uri": "categories(3090)",
+		"type": "PROJECT.category"
+	},
+	"products": {
+		"__deferred": {
+			"uri": "categories(3090)/products"
+		}
+	}
+}, {
+	"id": 1297,
+	"name": "name 55",
+	"taxRate": 1297.78,
+	"__metadata": {
+		"uri": "categories(1297)",
+		"type": "PROJECT.category"
+	},
+	"products": {
+		"__deferred": {
+			"uri": "categories(1297)/products"
+		}
+	}
+}, {
+	"id": 3101,
+	"name": "name 56",
+	"taxRate": 3101.81,
+	"__metadata": {
+		"uri": "categories(3101)",
+		"type": "PROJECT.category"
+	},
+	"products": {
+		"__deferred": {
+			"uri": "categories(3101)/products"
+		}
+	}
+}, {
+	"id": 9545,
+	"name": "name 57",
+	"taxRate": 9545.37,
+	"__metadata": {
+		"uri": "categories(9545)",
+		"type": "PROJECT.category"
+	},
+	"products": {
+		"__deferred": {
+			"uri": "categories(9545)/products"
+		}
+	}
+}, {
+	"id": 4880,
+	"name": "name 58",
+	"taxRate": 4880.84,
+	"__metadata": {
+		"uri": "categories(4880)",
+		"type": "PROJECT.category"
+	},
+	"products": {
+		"__deferred": {
+			"uri": "categories(4880)/products"
+		}
+	}
+}, {
+	"id": 3507,
+	"name": "name 59",
+	"taxRate": 3507.19,
+	"__metadata": {
+		"uri": "categories(3507)",
+		"type": "PROJECT.category"
+	},
+	"products": {
+		"__deferred": {
+			"uri": "categories(3507)/products"
+		}
+	}
+}, {
+	"id": 2537,
+	"name": "name 60",
+	"taxRate": 2537.92,
+	"__metadata": {
+		"uri": "categories(2537)",
+		"type": "PROJECT.category"
+	},
+	"products": {
+		"__deferred": {
+			"uri": "categories(2537)/products"
+		}
+	}
+}, {
+	"id": 5393,
+	"name": "name 61",
+	"taxRate": 5393.82,
+	"__metadata": {
+		"uri": "categories(5393)",
+		"type": "PROJECT.category"
+	},
+	"products": {
+		"__deferred": {
+			"uri": "categories(5393)/products"
+		}
+	}
+}, {
+	"id": 4076,
+	"name": "name 62",
+	"taxRate": 4076.01,
+	"__metadata": {
+		"uri": "categories(4076)",
+		"type": "PROJECT.category"
+	},
+	"products": {
+		"__deferred": {
+			"uri": "categories(4076)/products"
+		}
+	}
+}, {
+	"id": 2192,
+	"name": "name 63",
+	"taxRate": 2192.78,
+	"__metadata": {
+		"uri": "categories(2192)",
+		"type": "PROJECT.category"
+	},
+	"products": {
+		"__deferred": {
+			"uri": "categories(2192)/products"
+		}
+	}
+}, {
+	"id": 8733,
+	"name": "name 64",
+	"taxRate": 8733.68,
+	"__metadata": {
+		"uri": "categories(8733)",
+		"type": "PROJECT.category"
+	},
+	"products": {
+		"__deferred": {
+			"uri": "categories(8733)/products"
+		}
+	}
+}, {
+	"id": 9210,
+	"name": "name 65",
+	"taxRate": 9210.64,
+	"__metadata": {
+		"uri": "categories(9210)",
+		"type": "PROJECT.category"
+	},
+	"products": {
+		"__deferred": {
+			"uri": "categories(9210)/products"
+		}
+	}
+}, {
+	"id": 2390,
+	"name": "name 66",
+	"taxRate": 2390.42,
+	"__metadata": {
+		"uri": "categories(2390)",
+		"type": "PROJECT.category"
+	},
+	"products": {
+		"__deferred": {
+			"uri": "categories(2390)/products"
+		}
+	}
+}, {
+	"id": 2606,
+	"name": "name 67",
+	"taxRate": 2606.31,
+	"__metadata": {
+		"uri": "categories(2606)",
+		"type": "PROJECT.category"
+	},
+	"products": {
+		"__deferred": {
+			"uri": "categories(2606)/products"
+		}
+	}
+}, {
+	"id": 253,
+	"name": "name 68",
+	"taxRate": 253.95,
+	"__metadata": {
+		"uri": "categories(253)",
+		"type": "PROJECT.category"
+	},
+	"products": {
+		"__deferred": {
+			"uri": "categories(253)/products"
+		}
+	}
+}, {
+	"id": 8644,
+	"name": "name 69",
+	"taxRate": 8644.83,
+	"__metadata": {
+		"uri": "categories(8644)",
+		"type": "PROJECT.category"
+	},
+	"products": {
+		"__deferred": {
+			"uri": "categories(8644)/products"
+		}
+	}
+}, {
+	"id": 3876,
+	"name": "name 70",
+	"taxRate": 3876.5,
+	"__metadata": {
+		"uri": "categories(3876)",
+		"type": "PROJECT.category"
+	},
+	"products": {
+		"__deferred": {
+			"uri": "categories(3876)/products"
+		}
+	}
+}, {
+	"id": 4644,
+	"name": "name 71",
+	"taxRate": 4644.53,
+	"__metadata": {
+		"uri": "categories(4644)",
+		"type": "PROJECT.category"
+	},
+	"products": {
+		"__deferred": {
+			"uri": "categories(4644)/products"
+		}
+	}
+}, {
+	"id": 5241,
+	"name": "name 72",
+	"taxRate": 5241.71,
+	"__metadata": {
+		"uri": "categories(5241)",
+		"type": "PROJECT.category"
+	},
+	"products": {
+		"__deferred": {
+			"uri": "categories(5241)/products"
+		}
+	}
+}, {
+	"id": 530,
+	"name": "name 73",
+	"taxRate": 530.23,
+	"__metadata": {
+		"uri": "categories(530)",
+		"type": "PROJECT.category"
+	},
+	"products": {
+		"__deferred": {
+			"uri": "categories(530)/products"
+		}
+	}
+}, {
+	"id": 597,
+	"name": "name 74",
+	"taxRate": 597.52,
+	"__metadata": {
+		"uri": "categories(597)",
+		"type": "PROJECT.category"
+	},
+	"products": {
+		"__deferred": {
+			"uri": "categories(597)/products"
+		}
+	}
+}, {
+	"id": 735,
+	"name": "name 75",
+	"taxRate": 735.79,
+	"__metadata": {
+		"uri": "categories(735)",
+		"type": "PROJECT.category"
+	},
+	"products": {
+		"__deferred": {
+			"uri": "categories(735)/products"
+		}
+	}
+}, {
+	"id": 1369,
+	"name": "name 76",
+	"taxRate": 1369.13,
+	"__metadata": {
+		"uri": "categories(1369)",
+		"type": "PROJECT.category"
+	},
+	"products": {
+		"__deferred": {
+			"uri": "categories(1369)/products"
+		}
+	}
+}, {
+	"id": 7452,
+	"name": "name 77",
+	"taxRate": 7452.82,
+	"__metadata": {
+		"uri": "categories(7452)",
+		"type": "PROJECT.category"
+	},
+	"products": {
+		"__deferred": {
+			"uri": "categories(7452)/products"
+		}
+	}
+}, {
+	"id": 830,
+	"name": "name 78",
+	"taxRate": 830.66,
+	"__metadata": {
+		"uri": "categories(830)",
+		"type": "PROJECT.category"
+	},
+	"products": {
+		"__deferred": {
+			"uri": "categories(830)/products"
+		}
+	}
+}, {
+	"id": 9458,
+	"name": "name 79",
+	"taxRate": 9458.29,
+	"__metadata": {
+		"uri": "categories(9458)",
+		"type": "PROJECT.category"
+	},
+	"products": {
+		"__deferred": {
+			"uri": "categories(9458)/products"
+		}
+	}
+}, {
+	"id": 361,
+	"name": "name 80",
+	"taxRate": 361.18,
+	"__metadata": {
+		"uri": "categories(361)",
+		"type": "PROJECT.category"
+	},
+	"products": {
+		"__deferred": {
+			"uri": "categories(361)/products"
+		}
+	}
+}, {
+	"id": 7670,
+	"name": "name 81",
+	"taxRate": 7670.07,
+	"__metadata": {
+		"uri": "categories(7670)",
+		"type": "PROJECT.category"
+	},
+	"products": {
+		"__deferred": {
+			"uri": "categories(7670)/products"
+		}
+	}
+}, {
+	"id": 1526,
+	"name": "name 82",
+	"taxRate": 1526.14,
+	"__metadata": {
+		"uri": "categories(1526)",
+		"type": "PROJECT.category"
+	},
+	"products": {
+		"__deferred": {
+			"uri": "categories(1526)/products"
+		}
+	}
+}, {
+	"id": 1407,
+	"name": "name 83",
+	"taxRate": 1407.91,
+	"__metadata": {
+		"uri": "categories(1407)",
+		"type": "PROJECT.category"
+	},
+	"products": {
+		"__deferred": {
+			"uri": "categories(1407)/products"
+		}
+	}
+}, {
+	"id": 9453,
+	"name": "name 84",
+	"taxRate": 9453.76,
+	"__metadata": {
+		"uri": "categories(9453)",
+		"type": "PROJECT.category"
+	},
+	"products": {
+		"__deferred": {
+			"uri": "categories(9453)/products"
+		}
+	}
+}, {
+	"id": 3215,
+	"name": "name 85",
+	"taxRate": 3215.49,
+	"__metadata": {
+		"uri": "categories(3215)",
+		"type": "PROJECT.category"
+	},
+	"products": {
+		"__deferred": {
+			"uri": "categories(3215)/products"
+		}
+	}
+}, {
+	"id": 488,
+	"name": "name 86",
+	"taxRate": 488.01,
+	"__metadata": {
+		"uri": "categories(488)",
+		"type": "PROJECT.category"
+	},
+	"products": {
+		"__deferred": {
+			"uri": "categories(488)/products"
+		}
+	}
+}, {
+	"id": 437,
+	"name": "name 87",
+	"taxRate": 437.51,
+	"__metadata": {
+		"uri": "categories(437)",
+		"type": "PROJECT.category"
+	},
+	"products": {
+		"__deferred": {
+			"uri": "categories(437)/products"
+		}
+	}
+}, {
+	"id": 2347,
+	"name": "name 88",
+	"taxRate": 2347.95,
+	"__metadata": {
+		"uri": "categories(2347)",
+		"type": "PROJECT.category"
+	},
+	"products": {
+		"__deferred": {
+			"uri": "categories(2347)/products"
+		}
+	}
+}, {
+	"id": 8583,
+	"name": "name 89",
+	"taxRate": 8583.65,
+	"__metadata": {
+		"uri": "categories(8583)",
+		"type": "PROJECT.category"
+	},
+	"products": {
+		"__deferred": {
+			"uri": "categories(8583)/products"
+		}
+	}
+}, {
+	"id": 5338,
+	"name": "name 90",
+	"taxRate": 5338.33,
+	"__metadata": {
+		"uri": "categories(5338)",
+		"type": "PROJECT.category"
+	},
+	"products": {
+		"__deferred": {
+			"uri": "categories(5338)/products"
+		}
+	}
+}, {
+	"id": 7559,
+	"name": "name 91",
+	"taxRate": 7559.91,
+	"__metadata": {
+		"uri": "categories(7559)",
+		"type": "PROJECT.category"
+	},
+	"products": {
+		"__deferred": {
+			"uri": "categories(7559)/products"
+		}
+	}
+}, {
+	"id": 5074,
+	"name": "name 92",
+	"taxRate": 5074.03,
+	"__metadata": {
+		"uri": "categories(5074)",
+		"type": "PROJECT.category"
+	},
+	"products": {
+		"__deferred": {
+			"uri": "categories(5074)/products"
+		}
+	}
+}, {
+	"id": 4226,
+	"name": "name 93",
+	"taxRate": 4226.1,
+	"__metadata": {
+		"uri": "categories(4226)",
+		"type": "PROJECT.category"
+	},
+	"products": {
+		"__deferred": {
+			"uri": "categories(4226)/products"
+		}
+	}
+}, {
+	"id": 7346,
+	"name": "name 94",
+	"taxRate": 7346.05,
+	"__metadata": {
+		"uri": "categories(7346)",
+		"type": "PROJECT.category"
+	},
+	"products": {
+		"__deferred": {
+			"uri": "categories(7346)/products"
+		}
+	}
+}, {
+	"id": 9914,
+	"name": "name 95",
+	"taxRate": 9914.9,
+	"__metadata": {
+		"uri": "categories(9914)",
+		"type": "PROJECT.category"
+	},
+	"products": {
+		"__deferred": {
+			"uri": "categories(9914)/products"
+		}
+	}
+}, {
+	"id": 8316,
+	"name": "name 96",
+	"taxRate": 8316.62,
+	"__metadata": {
+		"uri": "categories(8316)",
+		"type": "PROJECT.category"
+	},
+	"products": {
+		"__deferred": {
+			"uri": "categories(8316)/products"
+		}
+	}
+}, {
+	"id": 9923,
+	"name": "name 97",
+	"taxRate": 9923.53,
+	"__metadata": {
+		"uri": "categories(9923)",
+		"type": "PROJECT.category"
+	},
+	"products": {
+		"__deferred": {
+			"uri": "categories(9923)/products"
+		}
+	}
+}, {
+	"id": 6666,
+	"name": "name 98",
+	"taxRate": 6666.91,
+	"__metadata": {
+		"uri": "categories(6666)",
+		"type": "PROJECT.category"
+	},
+	"products": {
+		"__deferred": {
+			"uri": "categories(6666)/products"
+		}
+	}
+}, {
+	"id": 3064,
+	"name": "name 99",
+	"taxRate": 3064.08,
+	"__metadata": {
+		"uri": "categories(3064)",
+		"type": "PROJECT.category"
+	},
+	"products": {
+		"__deferred": {
+			"uri": "categories(3064)/products"
+		}
+	}
+}, {
+	"id": 3857,
+	"name": "name 100",
+	"taxRate": 3857.63,
+	"__metadata": {
+		"uri": "categories(3857)",
+		"type": "PROJECT.category"
+	},
+	"products": {
+		"__deferred": {
+			"uri": "categories(3857)/products"
+		}
+	}
+}]

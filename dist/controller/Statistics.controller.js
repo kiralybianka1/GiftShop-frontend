@@ -1,0 +1,1 @@
+sap.ui.define(["sap/ui/core/mvc/Controller"],function(t){"use strict";return t.extend("Project.Project.controller.Statistics",{onInit:function(){},onCustomerStatPress:function(t){this.getRouter().navTo("CustomerStatistics")},onBillsStatPress:function(t){this.getRouter().navTo("BillsStatistics")},getRouter:function(){return sap.ui.core.UIComponent.getRouterFor(this)}})});

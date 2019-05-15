@@ -1,0 +1,35 @@
+<mvc:View controllerName="Project.Project.controller.CustomerStatistics" xmlns:html="http://www.w3.org/1999/xhtml"
+	xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m" xmlns:vbm="sap.ui.vbm" xmlns:vizUi5="sap.viz.ui5" xmlns:l="sap.ui.layout"
+	xmlns:mc="sap.suite.ui.microchart">
+	<Page title="{i18n>CustomerStatistics} {i18n>Statistics}">
+		<content>
+			<IconTabBar id="idIconTabBarNoIcons" class="sapUiResponsiveContentPadding" stretchContentHeight="true" select="handleIconTabBarSelect">
+				<items>
+					<IconTabFilter text="{i18n>OtherStat1}" key="categoryStat">
+						<ScrollContainer height="100%" width="100%" horizontal="false" vertical="true">
+							<content>
+								<vizUi5:Pie id="categoryChart" width="100%"/>
+							</content>
+						</ScrollContainer>
+					</IconTabFilter>
+					<IconTabFilter text="{i18n>CustomerStat2}" key="customerStat2">
+						<l:FixFlex class="fixFlexVertical">
+							<l:flexContent>
+								<vbm:GeoMap id="GeoMap" width="100%" height="100%" centerPosition="19.040235;47.497912" zoomlevel="7"
+									initialPosition="19.040235;47.497912;0" initialZoom="7">
+									<vbm:Containers id="spots" items="{ path:'/'}">
+										<vbm:Container position="{geolocation}" tooltip="{country}" key="{country}">
+											<vbm:item>
+												<mc:RadialMicroChart size="S" percentage="45" class="sapUiSmallMargin"/>
+											</vbm:item>
+										</vbm:Container>
+									</vbm:Containers>
+								</vbm:GeoMap>
+							</l:flexContent>
+						</l:FixFlex>
+					</IconTabFilter>
+				</items>
+			</IconTabBar>
+		</content>
+	</Page>
+</mvc:View>

@@ -1,0 +1,28 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:form="sap.ui.layout.form">
+	<Dialog title="{i18n>ProductAddTitle}" resizable="true" contentWidth="600px" contentHeight="550px">
+		<content width="600px">
+			<form:SimpleForm editable="true" layout="ResponsiveGridLayout">
+				<Label text="{i18n>ProductName}"/>
+				<Input id="addProductName" type="Text" required="true"/>
+				<Label text="{i18n>Description}"/>
+				<TextArea id="addProductDescription" rows="3" required="true"/>
+				<Label text="{i18n>Category}"/>
+				<ComboBox id="addProductCategorySelect" showSecondaryValues="true" items="{ path: 'category>/' }" required="true" selectedKey="1">
+					<core:ListItem text="{category>name}" key="{category>id}" additionalText="ID: {category>id}"/>
+				</ComboBox>
+				<Label text="{i18n>NetPrice}"/>
+				<Input id="addProductNetPrice" type="Number" required="true"/>
+				<Label text="{i18n>Quantity}"/>
+				<Input id="addProductQuantity" type="Number" required="true"/>
+				<Label text="{i18n>StockID}"/>
+				<Input id="addProductStockId" type="Text" required="true" placeholder="_______"/>
+			</form:SimpleForm>
+		</content>
+		<beginButton>
+			<Button id="idConfirmAddProduct" text="{i18n>Add}" press="onAddProductButtonPress"/>
+		</beginButton>
+		<endButton>
+			<Button id="idCloseAddProduct" text="{i18n>Close}" press="onCloseProductButtonPress"/>
+		</endButton>
+	</Dialog>
+</core:FragmentDefinition>

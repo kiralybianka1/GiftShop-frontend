@@ -1,0 +1,25 @@
+<mvc:View controllerName="Project.Project.controller.Sellers" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc"
+	displayBlock="true" xmlns="sap.m">
+	<Page title="{i18n>Sellers}">
+		<content>
+			<List headerText="{i18n>Sellers}" items="{ path:'/', sorter: { path: 'name', descending: false } }" id="sellersList">
+				<headerToolbar>
+					<Toolbar>
+						<ToolbarSpacer/>
+						<SearchField id="idSellersSearchField" liveChange="onSearch" width="30%"/>
+						<Button id="sortButton" press="onOpenViewSettings" icon="sap-icon://sort" type="Transparent"/>
+					</Toolbar>
+				</headerToolbar>
+				<items>
+					<StandardListItem title="{name}" description="ID: {id}" type="Navigation" press="onNavigationButtonPress"/>
+				</items>
+			</List>
+		</content>
+		<footer>
+			<Toolbar>
+				<ToolbarSpacer/>
+				<Button id="idAddSeller" text="{i18n>Add}" class="sapUiSmallMargin" type="Accept" icon="sap-icon://add" press="onAddButtonPress"/>
+			</Toolbar>
+		</footer>
+	</Page>
+</mvc:View>

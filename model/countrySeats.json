@@ -1,0 +1,85 @@
+[{
+	"geolocation": "21.0877309;46.6735939",
+	"name": "Békéscsaba",
+	"country": "Békés"
+}, {
+	"geolocation": "19.040235;47.497912",
+	"name": "Budapest",
+	"country": "Pest"
+}, {
+	"geolocation": "21.6273124;47.5316049",
+	"name": "Debrecen",
+	"country": "Hajdú-Bihar"
+}, {
+	"geolocation": "20.3772284;47.9025348",
+	"name": "Eger",
+	"country": "Heves"
+}, {
+	"geolocation": "17.6503974;47.6874569",
+	"name": "Győr",
+	"country": "Győr-Moson-Sopron"
+}, {
+	"geolocation": "17.7967639;46.3593606",
+	"name": "Kaposvár",
+	"country": "Somogy"
+}, {
+	"geolocation": "19.6896861;46.8963711",
+	"name": "Kecskemét",
+	"country": "Bács-Kiskun"
+}, {
+	"geolocation": "20.7784384;48.1034775",
+	"name": "Miskolc",
+	"country": "Borsod-Abaúj-Zemplén"
+}, {
+	"geolocation": "21.7244053;47.9495324",
+	"name": "Nyíregyháza",
+	"country": "Szabolcs-Szatmár-Bereg"
+} ,
+{
+	"geolocation": "18.232266;46.0727345",
+	"name": "Pécs",
+	"country": "Baranya"
+} ,
+{
+	"geolocation": "19.7999813;48.0935237",
+	"name": "Salgótarján",
+	"country": "Nógrád"
+},
+{
+	"geolocation": "20.1414253;46.2530102",
+	"name": "Szeged",
+	"country": "Csongrád"
+},
+{
+	"geolocation": "18.7062293;46.3474326",
+	"name": "Szekszárd",
+	"country": "Tolna"
+},
+{
+	"geolocation": "18.4221358;47.1860262",
+	"name": "Székesfehérvár",
+	"country": "Fejér"
+},
+{
+	"geolocation": "20.1824712;47.1621355",
+	"name": "Szolnok",
+	"country": "Jász-Nagykun-Szolnok"
+},
+{
+	"geolocation": "16.6218441;47.2306851",
+	"name": "Szombathely",
+	"country": "Vas"
+},
+{
+	"geolocation": "18.404818;47.569246",
+	"name": "Tatabánya",
+	"country": "Komárom-Esztergom"
+},{
+	"geolocation": "17.9093019;47.1028087",
+	"name": "Veszprém",
+	"country": "Veszprém"
+},{
+	"geolocation": "16.8416322;46.8416936",
+	"name": "Zalaegerszeg",
+	"country": "Zala"
+}]
